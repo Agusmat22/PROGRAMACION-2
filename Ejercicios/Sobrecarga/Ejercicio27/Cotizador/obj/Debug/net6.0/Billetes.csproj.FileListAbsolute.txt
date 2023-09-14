@@ -10,3 +10,15 @@ C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotiz
 C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\refint\Billetes.dll
 C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.pdb
 C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\ref\Billetes.dll
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\bin\Debug\net6.0\Billetes.deps.json
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\bin\Debug\net6.0\Billetes.dll
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\bin\Debug\net6.0\Billetes.pdb
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.AssemblyInfo.cs
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.dll
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\refint\Billetes.dll
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\Billetes.pdb
+C:\Users\usuario\Documents\PROGRAMACION-2\Ejercicios\Sobrecarga\Ejercicio27\Cotizador\obj\Debug\net6.0\ref\Billetes.dll

@@ -126,5 +126,7 @@ namespace Billetes
 
             return euro.GetCantidad() - conversionEuro.GetCantidad();
         }
+
+        
     }
 }

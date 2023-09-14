@@ -129,6 +129,15 @@ namespace Billetes
             return peso.GetCantidad() - conversionDolar.GetCantidad();
         }
 
+        public static void SetCotizacion(double cotizacion)
+        {
+            if (cotizacion >= 0)
+            {
+                cotzRespectoDolar = cotizacion;
+            }
+
+        }
+
     }
 
 

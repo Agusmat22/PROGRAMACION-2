@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -128,6 +129,17 @@ namespace Billetes
             Euro conversionDolar = (Euro)dolar;
 
             return euro.GetCantidad() - conversionDolar.GetCantidad();
+        }
+
+        //-----------------------metodo estatico------------------------
+
+        public static void SetCotizacion(double cotizacion)
+        {
+            if (cotizacion >= 0)
+            {
+                cotzRespectoDolar = cotizacion;    
+            }
+
         }
     }
 }
