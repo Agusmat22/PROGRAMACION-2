@@ -1,0 +1,17 @@
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\bin\Debug\net6.0-windows\HolaWindows.exe
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\bin\Debug\net6.0-windows\HolaWindows.deps.json
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\bin\Debug\net6.0-windows\HolaWindows.runtimeconfig.json
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\bin\Debug\net6.0-windows\HolaWindows.dll
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\bin\Debug\net6.0-windows\HolaWindows.pdb
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.csproj.AssemblyReference.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.Form1.resources
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.csproj.GenerateResource.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.AssemblyInfoInputs.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.AssemblyInfo.cs
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.dll
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\refint\HolaWindows.dll
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.pdb
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\HolaWindows.genruntimeconfig.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio31\HolaWindows\obj\Debug\net6.0-windows\ref\HolaWindows.dll

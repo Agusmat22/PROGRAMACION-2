@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\LABO 2\\Ejercicios\\Ejercicio12\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Ejercicio12\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Lisandro\\Desktop\\LABO 2\\Ejercicios\\Ejercicio12\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Ejercicio12\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lisandro\\Desktop\\LABO 2\\Ejercicios\\Ejercicio12\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Ejercicio12\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
