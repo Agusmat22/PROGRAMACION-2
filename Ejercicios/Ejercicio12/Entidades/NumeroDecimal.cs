@@ -36,18 +36,15 @@ namespace Entidades
 
         public static int operator +(NumeroDecimal numDecimal ,NumeroBinario numBinario)
         {
-            int numeroCasteado = Conversor.ConvertirBinarioADecimal(numBinario);
-
-            int resultado = numeroCasteado + numDecimal.GetNumero();
+            int resultado = (NumeroDecimal)numBinario + numDecimal.GetNumero();
 
             return resultado;
         }
 
         public static int operator -(NumeroDecimal numDecimal, NumeroBinario numBinario)
         {
-            int numeroCasteado = Conversor.ConvertirBinarioADecimal(numBinario);
 
-            int resultado = numeroCasteado - numDecimal.GetNumero();
+            int resultado = (NumeroDecimal)numBinario - numDecimal.GetNumero();
 
             return resultado;
         }

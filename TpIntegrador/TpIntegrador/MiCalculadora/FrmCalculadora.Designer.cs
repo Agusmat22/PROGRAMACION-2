@@ -65,6 +65,7 @@
             btnOperar.TabIndex = 1;
             btnOperar.Text = "Operar";
             btnOperar.UseVisualStyleBackColor = true;
+            btnOperar.Click += btnOperar_Click;
             // 
             // BtnCerrar
             // 
