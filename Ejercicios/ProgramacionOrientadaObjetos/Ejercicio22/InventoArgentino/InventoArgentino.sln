@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoArgentino", "InventoArgentino.csproj", "{D9899567-7081-4020-8B43-09BF66D5E0B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Entidades\Entidades.csproj", "{56C0B4E2-35E6-48DC-84E4-EFF35D69DA9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9899567-7081-4020-8B43-09BF66D5E0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9899567-7081-4020-8B43-09BF66D5E0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9899567-7081-4020-8B43-09BF66D5E0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9899567-7081-4020-8B43-09BF66D5E0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C0B4E2-35E6-48DC-84E4-EFF35D69DA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C0B4E2-35E6-48DC-84E4-EFF35D69DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C0B4E2-35E6-48DC-84E4-EFF35D69DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C0B4E2-35E6-48DC-84E4-EFF35D69DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B639B3AB-F042-4E26-9CAE-5B6B8F8FC4FC}
+	EndGlobalSection
+EndGlobal

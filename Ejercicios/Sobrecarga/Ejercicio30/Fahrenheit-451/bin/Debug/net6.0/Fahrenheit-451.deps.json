@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Fahrenheit-451/1.0.0": {
+        "dependencies": {
+          "Temperatura": "1.0.0"
+        },
+        "runtime": {
+          "Fahrenheit-451.dll": {}
+        }
+      },
+      "Temperatura/1.0.0": {
+        "runtime": {
+          "Temperatura.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fahrenheit-451/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Temperatura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\bin\Debug\net6.0\UnNumeroPerfecto.exe
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\bin\Debug\net6.0\UnNumeroPerfecto.deps.json
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\bin\Debug\net6.0\UnNumeroPerfecto.runtimeconfig.json
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\bin\Debug\net6.0\UnNumeroPerfecto.dll
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\bin\Debug\net6.0\UnNumeroPerfecto.pdb
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.csproj.AssemblyReference.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.AssemblyInfoInputs.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.AssemblyInfo.cs
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.dll
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\refint\UnNumeroPerfecto.dll
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.pdb
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\UnNumeroPerfecto.genruntimeconfig.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio4\UnNumeroPerfecto\obj\Debug\net6.0\ref\UnNumeroPerfecto.dll

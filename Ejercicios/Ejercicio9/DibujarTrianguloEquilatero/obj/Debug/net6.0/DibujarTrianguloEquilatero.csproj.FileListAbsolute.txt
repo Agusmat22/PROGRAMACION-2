@@ -1,0 +1,15 @@
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\bin\Debug\net6.0\DibujarTrianguloEquilatero.exe
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\bin\Debug\net6.0\DibujarTrianguloEquilatero.deps.json
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\bin\Debug\net6.0\DibujarTrianguloEquilatero.runtimeconfig.json
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\bin\Debug\net6.0\DibujarTrianguloEquilatero.dll
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\bin\Debug\net6.0\DibujarTrianguloEquilatero.pdb
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.csproj.AssemblyReference.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.AssemblyInfoInputs.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.AssemblyInfo.cs
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.dll
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\refint\DibujarTrianguloEquilatero.dll
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.pdb
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\DibujarTrianguloEquilatero.genruntimeconfig.cache
+C:\Users\Lisandro\Desktop\LABO 2\Ejercicios\Ejercicio9\DibujarTrianguloEquilatero\obj\Debug\net6.0\ref\DibujarTrianguloEquilatero.dll
