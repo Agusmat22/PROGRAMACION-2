@@ -28,16 +28,38 @@ namespace CotizadorDesktop
             if (txbCotzDolar.Enabled == false && txbCotzEuro.Enabled == false
                 && txbCotzPeso.Enabled == false)
             {
+                this.btnBloquear.ImageIndex = 1;
                 ActivarCotzTxbox();
+
             }
             else
             {
+                this.btnBloquear.ImageIndex = 0;
+
+                //CAMBIO EL VALOR DE LA COTIZACION
+
+                double.TryParse(this.txbCotzEuro.Text, out double cotzEuro);
+
+                double.TryParse(this.txbCotzPeso.Text, out double cotzPeso);
+                if (cotzEuro != Euro.GetCotizacion() && cotzEuro > 0)
+                {
+                    Euro.SetCotizacion(cotzEuro);
+                }
+                else if (cotzPeso != Peso.GetCotizacion() && cotzPeso > 0)
+                {
+                    Peso.SetCotizacion(cotzPeso);
+                }
+
+                //Limpio todos los textBox
+                LimpiarTxboxConversion();
+                //Bloqueo la modificacion de la cotizacion
                 BloquearCotzTxbox();
+
             }
         }
 
 
-        //BOTON MONEDA EURO
+        //BOTON CONVERTIR EURO
         private void btnEuro_Click(object sender, EventArgs e)
         {
             if (!(double.TryParse(this.txbEuroIngresado.Text, out double dinero)))
@@ -50,13 +72,55 @@ namespace CotizadorDesktop
             {
                 euro = dinero;
 
-                txbEuroE.Text = euro.GetCantidad().ToString();
+                txbEuroE.Text = euro;
 
-                dolar = (Dolar)euro;
-                txbEuroD.Text = dolar.GetCantidad().ToString();
+                txbEuroD.Text = (Dolar)euro;
 
-                peso = (Peso)euro;
-                txbEuroP.Text = peso.GetCantidad().ToString();
+                txbEuroP.Text = (Peso)euro;
+            }
+
+        }
+
+        //BOTON CONVERTIR DOLAR
+        private void btnDolar_Click(object sender, EventArgs e)
+        {
+            if (!(double.TryParse(this.txbDolarIngresado.Text, out double dinero)))
+            {
+                MessageBox.Show("ERROR, debe ingresar un numero", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            else
+            {
+                dolar = dinero;
+
+                txbDolarE.Text = (Euro)dolar;
+
+                txbDolarD.Text = dolar;
+
+                txbDolarP.Text = (Peso)dolar;
+            }
+
+        }
+
+        //BOTON CONVERTIR PESO
+        private void btnPeso_Click(object sender, EventArgs e)
+        {
+            if (!(double.TryParse(this.txbPesoIngresado.Text, out double dinero)))
+            {
+                MessageBox.Show("ERROR, debe ingresar un numero", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            else
+            {
+                peso = dinero;
+
+                txbPesoE.Text = (Euro)peso;
+
+                txbPesoD.Text = (Dolar)peso;
+
+                txbPesoP.Text = peso;
             }
 
         }
@@ -67,9 +131,22 @@ namespace CotizadorDesktop
         /// </summary>
         private void BloquearCotzTxbox()
         {
-            txbCotzEuro.Enabled = false;
-            txbCotzDolar.Enabled = false;
-            txbCotzPeso.Enabled = false;
+
+            //Recorro los controles
+            foreach (Control item in this.Controls)
+            {
+                //Pregunto si es del tipo TextBox y lo asigno a una variable
+                if (item is TextBox textBox && textBox != this.txbEuroIngresado && textBox != this.txbDolarIngresado
+                    && textBox != this.txbPesoIngresado)
+                {
+                    //Bloqueo el permiso de modificar
+                    textBox.Enabled = false;
+
+                }
+
+            }
+
+
         }
 
         /// <summary>
@@ -81,9 +158,33 @@ namespace CotizadorDesktop
             txbCotzPeso.Enabled = true;
         }
 
-        //HACER UN METODO VOID QUE BLOQUEE TODOS LOS TXTBOX QUE REALIZAN LA CONVERSION, DE ESE MODO NO ES NECESARIO
-        //eL METODO BLOQUEAR EN EL LOAD, SOLO HAGO UN METODO Y BLOQUEO TODO.
 
+        private void LimpiarTxboxConversion()
+        {
+            foreach (Control item in Controls)
+            {
+                if (item is TextBox textbox && textbox != this.txbCotzDolar
+                    && textbox != this.txbCotzEuro && textbox != this.txbCotzPeso)
+                {
+                    textbox.Text = "";
+                }
+            }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Desea cerrar la app?", "Cerrar",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+
+            if (resultado == DialogResult.Yes)
+            {
+                e.Cancel = false;
+            }
+            else
+            {
+                e.Cancel = true;
+            }
+        }
 
     }
 }

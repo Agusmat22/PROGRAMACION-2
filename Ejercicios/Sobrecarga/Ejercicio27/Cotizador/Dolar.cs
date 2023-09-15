@@ -62,6 +62,11 @@ namespace Billetes
             return new Dolar(dinero);
         }
 
+        public static implicit operator string(Dolar dolar)
+        {
+            return dolar.GetCantidad().ToString();
+        }
+
         //SOBRECARGA DE OPERADORES
 
         public static bool operator !=(Dolar dolar, Peso peso)

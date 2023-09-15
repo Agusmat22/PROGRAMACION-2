@@ -28,25 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             txbEuroIngresado = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txbDolarIngresado = new TextBox();
+            txbPesoIngresado = new TextBox();
             btnEuro = new Button();
             btnDolar = new Button();
             btnPeso = new Button();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
+            txbPesoE = new TextBox();
+            txbDolarE = new TextBox();
             txbEuroE = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
+            txbPesoD = new TextBox();
+            txbDolarD = new TextBox();
             txbEuroD = new TextBox();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
+            txbPesoP = new TextBox();
+            txbDolarP = new TextBox();
             txbEuroP = new TextBox();
             txbCotzPeso = new TextBox();
             txbCotzDolar = new TextBox();
             txbCotzEuro = new TextBox();
             btnBloquear = new Button();
+            candadoCerrado = new ImageList(components);
             lbCotizador = new Label();
             label1 = new Label();
             lbDolar = new Label();
@@ -63,19 +66,19 @@
             txbEuroIngresado.Size = new Size(100, 23);
             txbEuroIngresado.TabIndex = 0;
             // 
-            // textBox2
+            // txbDolarIngresado
             // 
-            textBox2.Location = new Point(78, 177);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
+            txbDolarIngresado.Location = new Point(78, 177);
+            txbDolarIngresado.Name = "txbDolarIngresado";
+            txbDolarIngresado.Size = new Size(100, 23);
+            txbDolarIngresado.TabIndex = 1;
             // 
-            // textBox3
+            // txbPesoIngresado
             // 
-            textBox3.Location = new Point(78, 239);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 2;
+            txbPesoIngresado.Location = new Point(78, 239);
+            txbPesoIngresado.Name = "txbPesoIngresado";
+            txbPesoIngresado.Size = new Size(100, 23);
+            txbPesoIngresado.TabIndex = 2;
             // 
             // btnEuro
             // 
@@ -95,6 +98,7 @@
             btnDolar.TabIndex = 4;
             btnDolar.Text = "->";
             btnDolar.UseVisualStyleBackColor = true;
+            btnDolar.Click += btnDolar_Click;
             // 
             // btnPeso
             // 
@@ -104,20 +108,21 @@
             btnPeso.TabIndex = 5;
             btnPeso.Text = "->";
             btnPeso.UseVisualStyleBackColor = true;
+            btnPeso.Click += btnPeso_Click;
             // 
-            // textBox4
+            // txbPesoE
             // 
-            textBox4.Location = new Point(363, 239);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 8;
+            txbPesoE.Location = new Point(363, 239);
+            txbPesoE.Name = "txbPesoE";
+            txbPesoE.Size = new Size(100, 23);
+            txbPesoE.TabIndex = 8;
             // 
-            // textBox5
+            // txbDolarE
             // 
-            textBox5.Location = new Point(363, 177);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 7;
+            txbDolarE.Location = new Point(363, 177);
+            txbDolarE.Name = "txbDolarE";
+            txbDolarE.Size = new Size(100, 23);
+            txbDolarE.TabIndex = 7;
             // 
             // txbEuroE
             // 
@@ -126,19 +131,19 @@
             txbEuroE.Size = new Size(100, 23);
             txbEuroE.TabIndex = 6;
             // 
-            // textBox7
+            // txbPesoD
             // 
-            textBox7.Location = new Point(510, 239);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(100, 23);
-            textBox7.TabIndex = 11;
+            txbPesoD.Location = new Point(510, 239);
+            txbPesoD.Name = "txbPesoD";
+            txbPesoD.Size = new Size(100, 23);
+            txbPesoD.TabIndex = 11;
             // 
-            // textBox8
+            // txbDolarD
             // 
-            textBox8.Location = new Point(510, 177);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(100, 23);
-            textBox8.TabIndex = 10;
+            txbDolarD.Location = new Point(510, 177);
+            txbDolarD.Name = "txbDolarD";
+            txbDolarD.Size = new Size(100, 23);
+            txbDolarD.TabIndex = 10;
             // 
             // txbEuroD
             // 
@@ -147,19 +152,19 @@
             txbEuroD.Size = new Size(100, 23);
             txbEuroD.TabIndex = 9;
             // 
-            // textBox10
+            // txbPesoP
             // 
-            textBox10.Location = new Point(665, 239);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(100, 23);
-            textBox10.TabIndex = 14;
+            txbPesoP.Location = new Point(665, 239);
+            txbPesoP.Name = "txbPesoP";
+            txbPesoP.Size = new Size(100, 23);
+            txbPesoP.TabIndex = 14;
             // 
-            // textBox11
+            // txbDolarP
             // 
-            textBox11.Location = new Point(665, 177);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(100, 23);
-            textBox11.TabIndex = 13;
+            txbDolarP.Location = new Point(665, 177);
+            txbDolarP.Name = "txbDolarP";
+            txbDolarP.Size = new Size(100, 23);
+            txbDolarP.TabIndex = 13;
             // 
             // txbEuroP
             // 
@@ -191,13 +196,22 @@
             // 
             // btnBloquear
             // 
+            btnBloquear.ImageIndex = 0;
+            btnBloquear.ImageList = candadoCerrado;
             btnBloquear.Location = new Point(226, 49);
             btnBloquear.Name = "btnBloquear";
             btnBloquear.Size = new Size(75, 23);
             btnBloquear.TabIndex = 18;
-            btnBloquear.Text = "Bloquear";
             btnBloquear.UseVisualStyleBackColor = true;
             btnBloquear.Click += btnBloquear_Click;
+            // 
+            // candadoCerrado
+            // 
+            candadoCerrado.ColorDepth = ColorDepth.Depth8Bit;
+            candadoCerrado.ImageStream = (ImageListStreamer)resources.GetObject("candadoCerrado.ImageStream");
+            candadoCerrado.TransparentColor = Color.Transparent;
+            candadoCerrado.Images.SetKeyName(0, "pngwing.com (1).png");
+            candadoCerrado.Images.SetKeyName(1, "pngwing.com.png");
             // 
             // lbCotizador
             // 
@@ -285,26 +299,27 @@
             Controls.Add(txbCotzPeso);
             Controls.Add(txbCotzDolar);
             Controls.Add(txbCotzEuro);
-            Controls.Add(textBox10);
-            Controls.Add(textBox11);
+            Controls.Add(txbPesoP);
+            Controls.Add(txbDolarP);
             Controls.Add(txbEuroP);
-            Controls.Add(textBox7);
-            Controls.Add(textBox8);
+            Controls.Add(txbPesoD);
+            Controls.Add(txbDolarD);
             Controls.Add(txbEuroD);
-            Controls.Add(textBox4);
-            Controls.Add(textBox5);
+            Controls.Add(txbPesoE);
+            Controls.Add(txbDolarE);
             Controls.Add(txbEuroE);
             Controls.Add(btnPeso);
             Controls.Add(btnDolar);
             Controls.Add(btnEuro);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
+            Controls.Add(txbPesoIngresado);
+            Controls.Add(txbDolarIngresado);
             Controls.Add(txbEuroIngresado);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -313,19 +328,19 @@
         #endregion
 
         private TextBox txbEuroIngresado;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txbDolarIngresado;
+        private TextBox txbPesoIngresado;
         private Button btnEuro;
         private Button btnDolar;
         private Button btnPeso;
-        private TextBox textBox4;
-        private TextBox textBox5;
+        private TextBox txbPesoE;
+        private TextBox txbDolarE;
         private TextBox txbEuroE;
-        private TextBox textBox7;
-        private TextBox textBox8;
+        private TextBox txbPesoD;
+        private TextBox txbDolarD;
         private TextBox txbEuroD;
-        private TextBox textBox10;
-        private TextBox textBox11;
+        private TextBox txbPesoP;
+        private TextBox txbDolarP;
         private TextBox txbEuroP;
         private TextBox txbCotzPeso;
         private TextBox txbCotzDolar;
@@ -338,5 +353,6 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private ImageList candadoCerrado;
     }
 }

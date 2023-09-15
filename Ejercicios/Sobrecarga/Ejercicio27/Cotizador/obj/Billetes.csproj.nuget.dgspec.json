@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Documents\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj": {}
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Documents\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj": {
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Documents\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj",
         "projectName": "Billetes",
-        "projectPath": "C:\\Users\\usuario\\Documents\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Documents\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\obj\\",
+        "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj",
+        "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

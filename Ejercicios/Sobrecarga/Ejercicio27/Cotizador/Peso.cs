@@ -52,9 +52,9 @@ namespace Billetes
         public static explicit operator Euro(Peso peso)
         {
 
-            double pesoAEuro = peso.GetCantidad() / Peso.GetCotizacion() * Euro.GetCotizacion();
+            double euro =  peso.GetCantidad() / (Peso.GetCotizacion() * Euro.GetCotizacion());
             
-            return new Euro(pesoAEuro);
+            return new Euro(euro);
         }
 
         //SOBRECARGA DE OPERADOR CONVERSION IMPLICITO
@@ -64,7 +64,12 @@ namespace Billetes
             return new Peso(dinero);
         }
 
-        
+        public static implicit operator string(Peso peso)
+        {
+            return peso.GetCantidad().ToString();
+        }
+
+
         //SOBRECARGA DE OPERADORES
         public static bool operator !=(Peso peso,Dolar dolar)
         {

@@ -64,6 +64,11 @@ namespace Billetes
             return new Euro(dinero);
         }
 
+        public static implicit operator string(Euro euro)
+        {
+            return euro.GetCantidad().ToString();
+        }
+
 
         //SOBRECARGA DE OPERADORES
 
