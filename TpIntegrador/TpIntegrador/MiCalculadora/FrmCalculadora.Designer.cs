@@ -32,16 +32,16 @@
             btnOperar = new Button();
             BtnCerrar = new Button();
             txbSegundoOperando = new TextBox();
-            txbTipoOperacion = new ComboBox();
+            cmbTipoOperacion = new ComboBox();
             lblPrimerOperando = new Label();
             lblSegundoOperando = new Label();
             txbPrimerOperando = new TextBox();
             label3 = new Label();
-            grpMostrarResultado = new GroupBox();
+            grbTipoSistema = new GroupBox();
             rdbBinario = new RadioButton();
             rdbDecimal = new RadioButton();
             label1 = new Label();
-            grpMostrarResultado.SuspendLayout();
+            grbTipoSistema.SuspendLayout();
             SuspendLayout();
             // 
             // btnLimpiar
@@ -51,7 +51,7 @@
             btnLimpiar.Location = new Point(281, 367);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(121, 43);
-            btnLimpiar.TabIndex = 0;
+            btnLimpiar.TabIndex = 5;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
             // 
@@ -62,7 +62,7 @@
             btnOperar.Location = new Point(40, 367);
             btnOperar.Name = "btnOperar";
             btnOperar.Size = new Size(178, 43);
-            btnOperar.TabIndex = 1;
+            btnOperar.TabIndex = 4;
             btnOperar.Text = "Operar";
             btnOperar.UseVisualStyleBackColor = true;
             btnOperar.Click += btnOperar_Click;
@@ -75,7 +75,7 @@
             BtnCerrar.Location = new Point(463, 367);
             BtnCerrar.Name = "BtnCerrar";
             BtnCerrar.Size = new Size(178, 43);
-            BtnCerrar.TabIndex = 2;
+            BtnCerrar.TabIndex = 6;
             BtnCerrar.Text = "Cerrar";
             BtnCerrar.UseVisualStyleBackColor = true;
             // 
@@ -86,18 +86,18 @@
             txbSegundoOperando.Location = new Point(463, 277);
             txbSegundoOperando.Name = "txbSegundoOperando";
             txbSegundoOperando.Size = new Size(178, 43);
-            txbSegundoOperando.TabIndex = 4;
+            txbSegundoOperando.TabIndex = 3;
             // 
-            // txbTipoOperacion
+            // cmbTipoOperacion
             // 
-            txbTipoOperacion.Cursor = Cursors.Hand;
-            txbTipoOperacion.DropDownStyle = ComboBoxStyle.DropDownList;
-            txbTipoOperacion.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            txbTipoOperacion.FormattingEnabled = true;
-            txbTipoOperacion.Location = new Point(281, 275);
-            txbTipoOperacion.Name = "txbTipoOperacion";
-            txbTipoOperacion.Size = new Size(121, 45);
-            txbTipoOperacion.TabIndex = 5;
+            cmbTipoOperacion.Cursor = Cursors.Hand;
+            cmbTipoOperacion.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipoOperacion.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            cmbTipoOperacion.FormattingEnabled = true;
+            cmbTipoOperacion.Location = new Point(281, 275);
+            cmbTipoOperacion.Name = "cmbTipoOperacion";
+            cmbTipoOperacion.Size = new Size(121, 45);
+            cmbTipoOperacion.TabIndex = 2;
             // 
             // lblPrimerOperando
             // 
@@ -126,7 +126,7 @@
             txbPrimerOperando.Location = new Point(40, 277);
             txbPrimerOperando.Name = "txbPrimerOperando";
             txbPrimerOperando.Size = new Size(178, 43);
-            txbPrimerOperando.TabIndex = 8;
+            txbPrimerOperando.TabIndex = 1;
             // 
             // label3
             // 
@@ -138,16 +138,16 @@
             label3.TabIndex = 9;
             label3.Text = "Operacion:";
             // 
-            // grpMostrarResultado
+            // grbTipoSistema
             // 
-            grpMostrarResultado.Controls.Add(rdbBinario);
-            grpMostrarResultado.Controls.Add(rdbDecimal);
-            grpMostrarResultado.Location = new Point(240, 133);
-            grpMostrarResultado.Name = "grpMostrarResultado";
-            grpMostrarResultado.Size = new Size(212, 78);
-            grpMostrarResultado.TabIndex = 10;
-            grpMostrarResultado.TabStop = false;
-            grpMostrarResultado.Text = "Representar resultado en:";
+            grbTipoSistema.Controls.Add(rdbBinario);
+            grbTipoSistema.Controls.Add(rdbDecimal);
+            grbTipoSistema.Location = new Point(240, 133);
+            grbTipoSistema.Name = "grbTipoSistema";
+            grbTipoSistema.Size = new Size(212, 78);
+            grbTipoSistema.TabIndex = 9;
+            grbTipoSistema.TabStop = false;
+            grbTipoSistema.Text = "Representar resultado en:";
             // 
             // rdbBinario
             // 
@@ -157,7 +157,7 @@
             rdbBinario.Location = new Point(126, 35);
             rdbBinario.Name = "rdbBinario";
             rdbBinario.Size = new Size(69, 23);
-            rdbBinario.TabIndex = 1;
+            rdbBinario.TabIndex = 8;
             rdbBinario.TabStop = true;
             rdbBinario.Text = "Binario";
             rdbBinario.UseVisualStyleBackColor = true;
@@ -170,7 +170,7 @@
             rdbDecimal.Location = new Point(19, 35);
             rdbDecimal.Name = "rdbDecimal";
             rdbDecimal.Size = new Size(75, 23);
-            rdbDecimal.TabIndex = 0;
+            rdbDecimal.TabIndex = 7;
             rdbDecimal.TabStop = true;
             rdbDecimal.Text = "Decimal";
             rdbDecimal.UseVisualStyleBackColor = true;
@@ -191,23 +191,24 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(684, 429);
             Controls.Add(label1);
-            Controls.Add(grpMostrarResultado);
+            Controls.Add(grbTipoSistema);
             Controls.Add(label3);
             Controls.Add(txbPrimerOperando);
             Controls.Add(lblSegundoOperando);
             Controls.Add(lblPrimerOperando);
-            Controls.Add(txbTipoOperacion);
+            Controls.Add(cmbTipoOperacion);
             Controls.Add(txbSegundoOperando);
             Controls.Add(BtnCerrar);
             Controls.Add(btnOperar);
             Controls.Add(btnLimpiar);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FrmCalculadora";
             Text = "Calculadora Alumno: Agustin";
             Load += FrmCalculadora_Load;
-            grpMostrarResultado.ResumeLayout(false);
-            grpMostrarResultado.PerformLayout();
+            grbTipoSistema.ResumeLayout(false);
+            grbTipoSistema.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -218,12 +219,12 @@
         private Button btnOperar;
         private Button BtnCerrar;
         private TextBox txbSegundoOperando;
-        private ComboBox txbTipoOperacion;
+        private ComboBox cmbTipoOperacion;
         private Label lblPrimerOperando;
         private Label lblSegundoOperando;
         private TextBox txbPrimerOperando;
         private Label label3;
-        private GroupBox grpMostrarResultado;
+        private GroupBox grbTipoSistema;
         private RadioButton rdbBinario;
         private RadioButton rdbDecimal;
         private Label label1;

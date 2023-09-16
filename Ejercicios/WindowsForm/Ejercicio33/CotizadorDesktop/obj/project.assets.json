@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\WindowsForm\\Ejercicio33\\CotizadorDesktop\\CotizadorDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\WindowsForm\\Ejercicio33\\CotizadorDesktop\\CotizadorDesktop.csproj",
       "projectName": "CotizadorDesktop",
-      "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\WindowsForm\\Ejercicio33\\CotizadorDesktop\\CotizadorDesktop.csproj",
+      "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\WindowsForm\\Ejercicio33\\CotizadorDesktop\\CotizadorDesktop.csproj",
       "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\WindowsForm\\Ejercicio33\\CotizadorDesktop\\obj\\",
+      "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\WindowsForm\\Ejercicio33\\CotizadorDesktop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj": {
-              "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2-main\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj"
+            "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj": {
+              "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio27\\Cotizador\\Billetes.csproj"
             }
           }
         }
