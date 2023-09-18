@@ -1,0 +1,15 @@
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\bin\Debug\net6.0\NumerosLocos ll.exe
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\bin\Debug\net6.0\NumerosLocos ll.deps.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\bin\Debug\net6.0\NumerosLocos ll.runtimeconfig.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\bin\Debug\net6.0\NumerosLocos ll.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\bin\Debug\net6.0\NumerosLocos ll.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.AssemblyInfo.cs
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\refint\NumerosLocos ll.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\NumerosLocos ll.genruntimeconfig.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Colecciones\Ejercicio37\NumerosLocos ll\obj\Debug\net6.0\ref\NumerosLocos ll.dll
