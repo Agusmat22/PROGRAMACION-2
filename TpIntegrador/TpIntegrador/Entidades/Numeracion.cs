@@ -37,8 +37,19 @@ namespace Entidades
         public ESistema GetSistema()
         { return ESistema; }
 
+        //PREGUNTAR AL PROFESOR
         public string GetValorNumerico()
-        { return valorNumerico.ToString(); }
+        {
+            if (valorNumerico == double.MinValue)
+            {
+                return "Error";
+            }
+            else
+            {
+                return valorNumerico.ToString(); 
+            }
+        
+        }
 
 
         /// <summary>
@@ -52,10 +63,12 @@ namespace Entidades
 
             if (sistema == ESistema.Binario && EsBinario(valor))
             {
+                //Convierto binario a decimal
                 this.valorNumerico = BinarioADecimal(valor);
             }
             else if (double.TryParse(valor, out double numero))
             {
+                //Parseo string a decimal
                 this.valorNumerico = numero;
             }
             else
@@ -290,7 +303,14 @@ namespace Entidades
 
         public static Numeracion operator /(Numeracion n1, Numeracion n2)
         {
-            n1.valorNumerico /= n2.valorNumerico;
+            if (n2.valorNumerico != 0)
+            {
+                n1.valorNumerico /= n2.valorNumerico;
+            }
+            else
+            {
+                n1.valorNumerico = double.MinValue;
+            }
             return n1;
         }
 

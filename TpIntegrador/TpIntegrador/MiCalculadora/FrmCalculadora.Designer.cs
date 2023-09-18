@@ -41,6 +41,7 @@
             rdbBinario = new RadioButton();
             rdbDecimal = new RadioButton();
             label1 = new Label();
+            lblResultado = new Label();
             grbTipoSistema.SuspendLayout();
             SuspendLayout();
             // 
@@ -48,9 +49,10 @@
             // 
             btnLimpiar.Cursor = Cursors.Hand;
             btnLimpiar.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLimpiar.Location = new Point(281, 367);
+            btnLimpiar.Location = new Point(321, 489);
+            btnLimpiar.Margin = new Padding(3, 4, 3, 4);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(121, 43);
+            btnLimpiar.Size = new Size(138, 57);
             btnLimpiar.TabIndex = 5;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@
             // 
             btnOperar.Cursor = Cursors.Hand;
             btnOperar.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            btnOperar.Location = new Point(40, 367);
+            btnOperar.Location = new Point(46, 489);
+            btnOperar.Margin = new Padding(3, 4, 3, 4);
             btnOperar.Name = "btnOperar";
-            btnOperar.Size = new Size(178, 43);
+            btnOperar.Size = new Size(203, 57);
             btnOperar.TabIndex = 4;
             btnOperar.Text = "Operar";
             btnOperar.UseVisualStyleBackColor = true;
@@ -72,9 +75,10 @@
             BtnCerrar.BackColor = SystemColors.Control;
             BtnCerrar.Cursor = Cursors.Hand;
             BtnCerrar.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnCerrar.Location = new Point(463, 367);
+            BtnCerrar.Location = new Point(529, 489);
+            BtnCerrar.Margin = new Padding(3, 4, 3, 4);
             BtnCerrar.Name = "BtnCerrar";
-            BtnCerrar.Size = new Size(178, 43);
+            BtnCerrar.Size = new Size(203, 57);
             BtnCerrar.TabIndex = 6;
             BtnCerrar.Text = "Cerrar";
             BtnCerrar.UseVisualStyleBackColor = true;
@@ -83,9 +87,10 @@
             // 
             txbSegundoOperando.Cursor = Cursors.IBeam;
             txbSegundoOperando.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            txbSegundoOperando.Location = new Point(463, 277);
+            txbSegundoOperando.Location = new Point(529, 369);
+            txbSegundoOperando.Margin = new Padding(3, 4, 3, 4);
             txbSegundoOperando.Name = "txbSegundoOperando";
-            txbSegundoOperando.Size = new Size(178, 43);
+            txbSegundoOperando.Size = new Size(203, 52);
             txbSegundoOperando.TabIndex = 3;
             // 
             // cmbTipoOperacion
@@ -94,18 +99,19 @@
             cmbTipoOperacion.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipoOperacion.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             cmbTipoOperacion.FormattingEnabled = true;
-            cmbTipoOperacion.Location = new Point(281, 275);
+            cmbTipoOperacion.Location = new Point(321, 367);
+            cmbTipoOperacion.Margin = new Padding(3, 4, 3, 4);
             cmbTipoOperacion.Name = "cmbTipoOperacion";
-            cmbTipoOperacion.Size = new Size(121, 45);
+            cmbTipoOperacion.Size = new Size(138, 53);
             cmbTipoOperacion.TabIndex = 2;
             // 
             // lblPrimerOperando
             // 
             lblPrimerOperando.AutoSize = true;
             lblPrimerOperando.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            lblPrimerOperando.Location = new Point(38, 244);
+            lblPrimerOperando.Location = new Point(43, 325);
             lblPrimerOperando.Name = "lblPrimerOperando";
-            lblPrimerOperando.Size = new Size(180, 30);
+            lblPrimerOperando.Size = new Size(221, 37);
             lblPrimerOperando.TabIndex = 6;
             lblPrimerOperando.Text = "Primer Operador";
             // 
@@ -113,9 +119,9 @@
             // 
             lblSegundoOperando.AutoSize = true;
             lblSegundoOperando.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            lblSegundoOperando.Location = new Point(452, 242);
+            lblSegundoOperando.Location = new Point(517, 323);
             lblSegundoOperando.Name = "lblSegundoOperando";
-            lblSegundoOperando.Size = new Size(203, 30);
+            lblSegundoOperando.Size = new Size(249, 37);
             lblSegundoOperando.TabIndex = 7;
             lblSegundoOperando.Text = "Segundo Operador";
             // 
@@ -123,18 +129,19 @@
             // 
             txbPrimerOperando.Cursor = Cursors.IBeam;
             txbPrimerOperando.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            txbPrimerOperando.Location = new Point(40, 277);
+            txbPrimerOperando.Location = new Point(46, 369);
+            txbPrimerOperando.Margin = new Padding(3, 4, 3, 4);
             txbPrimerOperando.Name = "txbPrimerOperando";
-            txbPrimerOperando.Size = new Size(178, 43);
+            txbPrimerOperando.Size = new Size(203, 52);
             txbPrimerOperando.TabIndex = 1;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(281, 242);
+            label3.Location = new Point(321, 323);
             label3.Name = "label3";
-            label3.Size = new Size(121, 30);
+            label3.Size = new Size(150, 37);
             label3.TabIndex = 9;
             label3.Text = "Operacion:";
             // 
@@ -142,9 +149,11 @@
             // 
             grbTipoSistema.Controls.Add(rdbBinario);
             grbTipoSistema.Controls.Add(rdbDecimal);
-            grbTipoSistema.Location = new Point(240, 133);
+            grbTipoSistema.Location = new Point(274, 177);
+            grbTipoSistema.Margin = new Padding(3, 4, 3, 4);
             grbTipoSistema.Name = "grbTipoSistema";
-            grbTipoSistema.Size = new Size(212, 78);
+            grbTipoSistema.Padding = new Padding(3, 4, 3, 4);
+            grbTipoSistema.Size = new Size(242, 104);
             grbTipoSistema.TabIndex = 9;
             grbTipoSistema.TabStop = false;
             grbTipoSistema.Text = "Representar resultado en:";
@@ -154,9 +163,10 @@
             rdbBinario.AutoSize = true;
             rdbBinario.Cursor = Cursors.Hand;
             rdbBinario.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            rdbBinario.Location = new Point(126, 35);
+            rdbBinario.Location = new Point(144, 47);
+            rdbBinario.Margin = new Padding(3, 4, 3, 4);
             rdbBinario.Name = "rdbBinario";
-            rdbBinario.Size = new Size(69, 23);
+            rdbBinario.Size = new Size(84, 27);
             rdbBinario.TabIndex = 8;
             rdbBinario.TabStop = true;
             rdbBinario.Text = "Binario";
@@ -167,9 +177,10 @@
             rdbDecimal.AutoSize = true;
             rdbDecimal.Cursor = Cursors.Hand;
             rdbDecimal.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            rdbDecimal.Location = new Point(19, 35);
+            rdbDecimal.Location = new Point(22, 47);
+            rdbDecimal.Margin = new Padding(3, 4, 3, 4);
             rdbDecimal.Name = "rdbDecimal";
-            rdbDecimal.Size = new Size(75, 23);
+            rdbDecimal.Size = new Size(92, 27);
             rdbDecimal.TabIndex = 7;
             rdbDecimal.TabStop = true;
             rdbDecimal.Text = "Decimal";
@@ -179,17 +190,28 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 24.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(41, 29);
+            label1.Location = new Point(47, 39);
             label1.Name = "label1";
-            label1.Size = new Size(177, 45);
+            label1.Size = new Size(223, 57);
             label1.TabIndex = 11;
             label1.Text = "Resultado:";
             // 
+            // lblResultado
+            // 
+            lblResultado.AutoSize = true;
+            lblResultado.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            lblResultado.Location = new Point(309, 53);
+            lblResultado.Name = "lblResultado";
+            lblResultado.Size = new Size(33, 38);
+            lblResultado.TabIndex = 12;
+            lblResultado.Text = "0";
+            // 
             // FrmCalculadora
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(684, 429);
+            ClientSize = new Size(782, 572);
+            Controls.Add(lblResultado);
             Controls.Add(label1);
             Controls.Add(grbTipoSistema);
             Controls.Add(label3);
@@ -202,10 +224,11 @@
             Controls.Add(btnOperar);
             Controls.Add(btnLimpiar);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FrmCalculadora";
-            Text = "Calculadora Alumno: Agustin";
+            Text = "Calculadora Alumno: Agustin Garcia Navas";
             Load += FrmCalculadora_Load;
             grbTipoSistema.ResumeLayout(false);
             grbTipoSistema.PerformLayout();
@@ -228,5 +251,6 @@
         private RadioButton rdbBinario;
         private RadioButton rdbDecimal;
         private Label label1;
+        private Label lblResultado;
     }
 }

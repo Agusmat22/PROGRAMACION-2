@@ -62,15 +62,15 @@ namespace Login
             {
                 if (user.ValidarCorreo(correo) && user.ValidarPassword(password))
                 {
-                    MessageBox.Show("Usuario correcto, Ingresaste a la app BRODER");
-                }
-                else
-                {
-                    MessageBox.Show("ERROR Usuario incorrecto");
+                    //Le paso la clase login
+                    Contador contador = new Contador(this,user);
 
+                    contador.Show();
                 }
+                
 
             }
+            MessageBox.Show("ERROR, Ingrese un usuario nuevamente");
         }
     }
 }

@@ -51,9 +51,8 @@ namespace Entidades
 
         public static bool operator ==(NumeroDecimal numDecimal, NumeroBinario numBinario)
         {
-            int numeroCasteado = Conversor.ConvertirBinarioADecimal(numBinario);
 
-            return numeroCasteado == numDecimal.GetNumero();
+            return ((NumeroDecimal)numBinario).GetNumero() == numDecimal.GetNumero();
         }
 
         public static bool operator !=(NumeroDecimal numDecimal, NumeroBinario numBinario)

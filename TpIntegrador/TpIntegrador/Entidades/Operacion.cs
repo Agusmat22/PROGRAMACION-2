@@ -13,6 +13,34 @@
             this.segundoOperando = segundoOperando;
         }
 
+        public Numeracion Operar(char tipoOperacion)
+        {
+            Numeracion resultado;
+            switch (tipoOperacion)
+            {
+
+                case '+':
+                    resultado = primerOperando + segundoOperando;
+                    break;
+
+                case '-':
+                    resultado = primerOperando - segundoOperando;
+                    break;
+
+                case '*':
+                    resultado = primerOperando * segundoOperando;
+                    break;
+
+                default:  
+                    resultado = primerOperando / segundoOperando;     
+                    
+                    break;
+
+            }
+
+            return resultado;
+        }
+
 
     }
 }

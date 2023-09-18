@@ -48,7 +48,8 @@ namespace Temperatura
         public static explicit operator Kelvin(Fahrenheit fahrenheit)
         {
             //K = (F - 32) * (9/5) + 273.15 
-            Kelvin temperaturaConvertida = (fahrenheit.GetTemperatura() - Fahrenheit.GetTemperaturaInicial()) * (5/9) + Kelvin.GetTemperaturaInicial() ;
+            //Kelvin temperaturaConvertida = (fahrenheit.GetTemperatura() - Fahrenheit.GetTemperaturaInicial()) * (5/9) + Kelvin.GetTemperaturaInicial() ;
+            Kelvin temperaturaConvertida = ((fahrenheit.GetTemperatura() - 32) / 1.8) + Kelvin.GetTemperaturaInicial();
 
             return temperaturaConvertida;
         }

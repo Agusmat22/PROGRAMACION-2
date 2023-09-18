@@ -1,4 +1,6 @@
-﻿namespace Biblioteca
+﻿using System.Text;
+
+namespace Biblioteca
 {
     public enum Colores
     {
@@ -20,13 +22,15 @@
         private bool trabaja;
         private bool mayorDeEdad;
 
+        public int contador;
+
         public Usuario()
         {
-
+            contador = 0;
         }
 
-        public Usuario(string nombre, string correo, string password, 
-            DateTime fechaNacimiento, int codSeguridad, Colores color, string sexo)
+        public Usuario(string nombre, string correo, string password,
+            DateTime fechaNacimiento, int codSeguridad, Colores color, string sexo) : this()
         {
             this.nombre = nombre;
             this.correo = correo;
@@ -63,13 +67,13 @@
             return !(a.correo == b.correo);
         }
 
-        public static bool operator +(List<Usuario> listUsuarios,Usuario usuarioNuevo)
+        public static bool operator +(List<Usuario> listUsuarios, Usuario usuarioNuevo)
         {
             bool valor = true;
 
-            foreach(Usuario user in listUsuarios)
+            foreach (Usuario user in listUsuarios)
             {
-                if(user == usuarioNuevo)
+                if (user == usuarioNuevo)
                 {
                     valor = false;
                 }
@@ -91,6 +95,24 @@
         {
             return this.correo == correo;
         }
+
+        public string MostrarDatos()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append($"Nombre: {this.nombre} | ");
+            sb.Append($"Puntos: {this.contador}");
+            
+            return sb.ToString();
+
+        } 
+
+        public static implicit operator string(Usuario user)
+        {
+            return "HOLA";
+        }
+        
+        
 
     }
 }

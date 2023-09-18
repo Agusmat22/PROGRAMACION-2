@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lisandro\\.nuget\\packages\\": {}
+    "C:\\Users\\purri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\TpIntegrador\\TpIntegrador\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\TpIntegrador\\TpIntegrador\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\TpIntegrador\\TpIntegrador\\Entidades\\Entidades.csproj",
-      "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\TpIntegrador\\TpIntegrador\\Entidades\\obj\\",
+      "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\TpIntegrador\\TpIntegrador\\Entidades\\Entidades.csproj",
+      "packagesPath": "C:\\Users\\purri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\TpIntegrador\\TpIntegrador\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\purri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

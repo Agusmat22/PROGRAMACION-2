@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vulcano", "Vulcano.csproj", "{22C5AC8E-6F46-4D74-9032-FE8E3970177D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temperatura", "..\..\..\Sobrecarga\Ejercicio30\Temperatura\Temperatura.csproj", "{AD143DAE-B63C-449E-9AF0-CF90E0E87A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C5AC8E-6F46-4D74-9032-FE8E3970177D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C5AC8E-6F46-4D74-9032-FE8E3970177D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C5AC8E-6F46-4D74-9032-FE8E3970177D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C5AC8E-6F46-4D74-9032-FE8E3970177D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD143DAE-B63C-449E-9AF0-CF90E0E87A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD143DAE-B63C-449E-9AF0-CF90E0E87A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD143DAE-B63C-449E-9AF0-CF90E0E87A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD143DAE-B63C-449E-9AF0-CF90E0E87A11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6580AB95-3614-494D-B486-0BBBD262F0AC}
+	EndGlobalSection
+EndGlobal

@@ -36,27 +36,23 @@ namespace Entidades
 
         public static string operator +(NumeroBinario numBinario,NumeroDecimal numDecimal)
         {
-            int numeroCasteado = Conversor.ConvertirBinarioADecimal(numBinario);
 
-            int resultado = numeroCasteado + numDecimal.GetNumero();
+            int resultado = (NumeroDecimal)numBinario + numDecimal.GetNumero();
 
             return Conversor.ConversorDecimalABinario(resultado);
         }
 
         public static string operator -(NumeroBinario numBinario, NumeroDecimal numDecimal)
         {
-            int numeroCasteado = Conversor.ConvertirBinarioADecimal(numBinario);
-
-            int resultado = numeroCasteado - numDecimal.GetNumero();
+            int resultado = (NumeroDecimal)numBinario - numDecimal.GetNumero();
 
             return Conversor.ConversorDecimalABinario(resultado);
         }
 
         public static bool operator ==(NumeroBinario numBinario, NumeroDecimal numDecimal)
         {
-            int numeroCasteado = Conversor.ConvertirBinarioADecimal(numBinario);
 
-            return numeroCasteado == numDecimal.GetNumero();
+            return (NumeroDecimal)numBinario == numDecimal.GetNumero();
         }
 
         public static bool operator !=(NumeroBinario numBinario, NumeroDecimal numDecimal)

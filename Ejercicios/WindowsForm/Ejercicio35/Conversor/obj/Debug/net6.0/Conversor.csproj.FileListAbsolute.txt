@@ -1,0 +1,11 @@
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\bin\Debug\net6.0\Conversor.deps.json
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\bin\Debug\net6.0\Conversor.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\bin\Debug\net6.0\Conversor.pdb
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\Conversor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\Conversor.AssemblyInfoInputs.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\Conversor.AssemblyInfo.cs
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\Conversor.csproj.CoreCompileInputs.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\Conversor.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\refint\Conversor.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\Conversor.pdb
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\WindowsForm\Ejercicio35\Conversor\obj\Debug\net6.0\ref\Conversor.dll

@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "QuaN8Z1bRyZuZcH7sC+aNY3v/e9pk4/FF0sI0pUk1wzmJZIZaOgSkUCp6WIib8IBq3FL++KzSoICNeYEukrEEQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio30\\Fahrenheit-451\\Fahrenheit-451.csproj",
+  "dgSpecHash": "wpvCBRguJ+mPTxONrDvACIeOVbxNptu99StE8XnUjgxzR7Ai1SwteqgzHzHlyEJbRJtW2rHn6YhVdnNuJAbI9w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio30\\Fahrenheit-451\\Fahrenheit-451.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio30\\Temperatura\\Temperatura.csproj\". Si está usando Visual Studio, puede deberse a que el proyecto no se haya cargado o no forme parte de la solución actual, por lo que debe ejecutar una restauración desde la línea de comandos. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Sobrecarga\\Ejercicio30\\Temperatura\\Temperatura.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

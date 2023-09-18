@@ -2,7 +2,19 @@ using Entidades;
 
 namespace MiCalculadora
 {
+    /*PREGUNTAR
+     -La calculadora realiza calculos con numeros binarios o solo decimal?
 
+     -Cuando nos pide inicializar el componente porque tiene la opcion de recibir un binario
+    si no tenemos forma de identificarlo ya que con el metodo es binario no seria suficiente.?
+
+     -El sistema es solo para luego mostrar el resultado o es para seleccionar el tipo de numero
+    que va ingresar?
+
+    -Y se puede hacer algun metodo extra del que esta en el tp o tiene que ser todo tal cual las consignas.
+
+     
+     */
     public partial class FrmCalculadora : Form
     {
         Numeracion operadorUno;
@@ -29,6 +41,9 @@ namespace MiCalculadora
             //Selecciono de forma predeterminada un radioButton
             this.rdbDecimal.Checked = true;
 
+            //OCULTO EL RESULTADO
+            this.lblResultado.Visible = false;
+
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
@@ -40,7 +55,7 @@ namespace MiCalculadora
                 {
                     if (radioButton == this.rdbDecimal)
                     {
-                        //Asigno el sistema seleccionado
+                        //Asigno el sistema seleccionado para mostrar resultado
                         this.sistema = ESistema.Decimal;
                     }
                     else
@@ -55,9 +70,13 @@ namespace MiCalculadora
             operadorUno = new Numeracion(this.txbPrimerOperando.Text, sistema);
             operadorDos = new Numeracion(this.txbSegundoOperando.Text, sistema);
 
-            operadorUno += operadorDos;
+            calculadora = new Operacion(operadorUno, operadorDos);
 
-            MessageBox.Show("El resultado es: " + operadorUno.GetValorNumerico());
+            resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
+
+            //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
+            this.lblResultado.Text = resultado.GetValorNumerico();
+            this.lblResultado.Visible = true;
 
 
 

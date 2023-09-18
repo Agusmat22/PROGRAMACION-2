@@ -87,7 +87,7 @@ namespace Login
                             ((TextBox)item).Text = "";
                             ((TextBox)item).PlaceholderText = "Error, las contraseñas deben coincidir";
                         }
-                        
+
                     }
 
 
@@ -160,18 +160,15 @@ namespace Login
             usuario.SetEstudiar(valorEstudiar);
             usuario.SetMayorDeEdad(valorMayorEdad);
 
-            if (password != "" && login.listaUsuarios + usuario  )
+            if (password != "" && login.listaUsuarios + usuario)
             {
-                MessageBox.Show("Registro exitoso", "Registro", 
+                MessageBox.Show("Registro exitoso", "Registro",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            
-        }
-
-        private void btnTest_Click(object sender, EventArgs e)
-        {
 
         }
+
+
 
         private void button2_Click(object sender, EventArgs e)
         {
