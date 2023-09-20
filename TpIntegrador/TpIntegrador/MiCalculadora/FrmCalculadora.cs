@@ -48,39 +48,82 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            //recorro el group box para guardar el radioButtons seleccionado
-            foreach (Control item in this.grbTipoSistema.Controls)
-            {
-                if (item is RadioButton radioButton && radioButton.Checked)
-                {
-                    if (radioButton == this.rdbDecimal)
-                    {
-                        //Asigno el sistema seleccionado para mostrar resultado
-                        this.sistema = ESistema.Decimal;
-                    }
-                    else
-                    {
-                        this.sistema = ESistema.Binario;
-                    }
 
-                    break;
+            if (int.TryParse(this.txbPrimerOperando.Text, out int primerOperado) &&
+                int.TryParse(this.txbSegundoOperando.Text, out int segundoOperando))
+            {
+
+                //LO HARCODEO
+                operadorUno = new Numeracion(primerOperado, ESistema.Decimal);
+                operadorDos = new Numeracion(segundoOperando, ESistema.Decimal);
+
+                calculadora = new Operacion(operadorUno, operadorDos);
+
+                //Resultado es del tipo numeracion
+                resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
+
+                //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
+                this.lblResultado.Text = resultado.GetValorNumerico();
+
+
+                //recorro el group box para obtener que button fue seleccionado
+                foreach (Control item in this.grbTipoSistema.Controls)
+                {
+                    if (item is RadioButton radioButton && radioButton.Checked)
+                    {
+                        if (radioButton == this.rdbDecimal)
+                        {
+                            //Muestro el resultado en decimal
+                            this.lblResultado.Text = resultado.GetValorNumerico();
+
+                        }
+                        else
+                        {
+                            //Muestro el resultado en binario
+                            this.lblResultado.Text = resultado.ConvertirA(ESistema.Binario);
+
+                        }
+
+                        this.lblResultado.Visible = true;
+                        break;
+                    }
                 }
             }
-
-            operadorUno = new Numeracion(this.txbPrimerOperando.Text, sistema);
-            operadorDos = new Numeracion(this.txbSegundoOperando.Text, sistema);
-
-            calculadora = new Operacion(operadorUno, operadorDos);
-
-            resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
-
-            //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
-            this.lblResultado.Text = resultado.GetValorNumerico();
-            this.lblResultado.Visible = true;
+            else
+            {
+                this.lblResultado.Text = "Error";
+                this.lblResultado.Visible = true;
+            }
 
 
 
         }
 
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            this.txbPrimerOperando.Clear();
+            this.txbSegundoOperando.Clear();
+
+            this.lblResultado.Visible = false;
+        }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FrmCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show("Estas seguro ? ","Cerrar",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+
+            if (resultado == DialogResult.Yes)
+            {
+                e.Cancel = false;
+            }
+            else
+            {
+                e.Cancel =true;
+            }
+        }
     }
 }

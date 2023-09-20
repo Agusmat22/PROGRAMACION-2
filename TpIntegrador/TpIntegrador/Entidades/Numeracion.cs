@@ -197,11 +197,8 @@ namespace Entidades
                         resto = dividendo % divisor;
                         dividendo = dividendo / divisor;
 
-                        if (resto == 0 || resto == 1)
-                        {
-                            numeroBinario += resto.ToString();
-                        }
-
+                        numeroBinario += resto.ToString();
+                        
                     }
                     else
                     {
@@ -215,7 +212,7 @@ namespace Entidades
             }
             else
             {
-                numeroBinario = "Numero invalido";
+                numeroBinario = "Error";
             }
 
 
@@ -242,13 +239,20 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Retornara una cadena en funcion al sistema ingresado
+        /// Convierte un numero en el sistema ingresado
         /// </summary>
         /// <param name="sistema"></param>
-        /// <returns></returns>
+        /// <returns>Un numero del tipo string</returns>
         public string ConvertirA(ESistema sistema)
         {
-            return sistema.ToString();
+            if(sistema == ESistema.Decimal)
+            {
+                return GetValorNumerico();  
+            }
+            else
+            {
+                return DecimalABinario(GetValorNumerico());
+            }
         }
 
         //------------------------- SOBRECARGAR DE OPERADORES ASIGNACION  == o != ---------------------------------------//
@@ -301,9 +305,10 @@ namespace Entidades
             return n1;
         }
 
+       
         public static Numeracion operator /(Numeracion n1, Numeracion n2)
         {
-            if (n2.valorNumerico != 0)
+            if (n2.valorNumerico != 0) //valido que el segundo operador sea distinto de 0
             {
                 n1.valorNumerico /= n2.valorNumerico;
             }

@@ -13,6 +13,11 @@
             this.segundoOperando = segundoOperando;
         }
 
+        /// <summary>
+        /// Realiza una operacion matematica segun el tipo de operacion ingresada
+        /// </summary>
+        /// <param name="tipoOperacion"></param>
+        /// <returns>Objeto Numeracion con el calculo realizado</returns>
         public Numeracion Operar(char tipoOperacion)
         {
             Numeracion resultado;
