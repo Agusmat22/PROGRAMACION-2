@@ -63,7 +63,7 @@ namespace MiCalculadora
                 resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
 
                 //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
-                this.lblResultado.Text = resultado.GetValorNumerico();
+                this.lblResultado.Text = resultado.ValorNumerico;
 
 
                 //recorro el group box para obtener que button fue seleccionado
@@ -74,7 +74,7 @@ namespace MiCalculadora
                         if (radioButton == this.rdbDecimal)
                         {
                             //Muestro el resultado en decimal
-                            this.lblResultado.Text = resultado.GetValorNumerico();
+                            this.lblResultado.Text = resultado.ValorNumerico;
 
                         }
                         else

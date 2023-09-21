@@ -24,8 +24,9 @@
             switch (tipoOperacion)
             {
 
-                case '+':
-                    resultado = primerOperando + segundoOperando;
+                case '/':
+                    resultado = primerOperando / segundoOperando;
+
                     break;
 
                 case '-':
@@ -37,11 +38,13 @@
                     break;
 
                 default:  
-                    resultado = primerOperando / segundoOperando;     
+                    resultado = primerOperando + segundoOperando;     
                     
                     break;
 
             }
+
+            
 
             return resultado;
         }
