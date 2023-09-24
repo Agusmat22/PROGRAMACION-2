@@ -18,8 +18,6 @@ namespace Entidades
         private ESistema sistema;
         private double valorNumerico;
 
-
-        //ACA NO SE QUE DEBE HACER ESTE CONSTRUCTOR
         public Numeracion(double valorNumerico, ESistema sistema): this(valorNumerico.ToString(),sistema)
         {
            
@@ -43,9 +41,13 @@ namespace Entidades
         {
             get
             {
-                if (valorNumerico == double.MinValue || valorNumerico == null)
+                if (valorNumerico == double.MinValue)
                 {
                     return "Error";
+                }
+                else if(Sistema == ESistema.Binario)
+                {
+                    return DecimalABinario(valorNumerico);
                 }
                 else
                 {
@@ -68,22 +70,31 @@ namespace Entidades
         private void InicializarValores(string valor, ESistema sistema)
         {
             this.sistema = sistema;
+            
 
-            if (sistema == ESistema.Binario && EsBinario(valor))
+            if (this.sistema == ESistema.Binario && EsBinario(valor))
             {
+                
                 //Convierto binario a decimal
                 this.valorNumerico = BinarioADecimal(valor);
+                
+                
             }
-            else if (double.TryParse(valor, out double numero))
+            else if (this.sistema == ESistema.Decimal && double.TryParse(valor, out double numero))
             {
                 //Parseo string a decimal
                 this.valorNumerico = numero;
             }
             else
             {
-                //En caso de no ser un decimal ni un binario, asigno el minimo valor de un double
-                this.valorNumerico = double.MinValue;
+                this.valorNumerico = double.MinValue; //En caso de no ser de ningun sistema el dato ingresado, se asigna el minValue
             }
+
+
+
+
+
+
         }
 
 
@@ -125,7 +136,7 @@ namespace Entidades
             if (EsBinario(valor))
             {
                 int cantidadCaracteres = valor.Length - 1;
-                int digito;
+                int digito; //sera el caracter 'char' luego ser parseado
                 char caracter;
 
                 for (int i = cantidadCaracteres; i >= 0; i--)
@@ -226,17 +237,18 @@ namespace Entidades
         /// <returns>Un numero del tipo string</returns>
         public string ConvertirA(ESistema sistema)
         {
-            if(sistema == ESistema.Decimal && this.Sistema != sistema)
+            if(sistema == ESistema.Binario && this.Sistema != sistema)
             {
                 return DecimalABinario(this.ValorNumerico); 
             }
-            else if(sistema == ESistema.Decimal && this.Sistema != sistema)
+            else if(Sistema == ESistema.Decimal && this.Sistema != sistema)
             {
                 return BinarioADecimal(this.ValorNumerico).ToString();
             }
             else
             {
-                return null;
+                //return null; //NO RETORNO NULL PORQUE NO ME PARECE OPTIMO, PREFIERO RETORNAR UN MENSAJE
+                return "Error en la conversion";
             }
         }
 
@@ -272,13 +284,8 @@ namespace Entidades
             return !(sistema == numeracion);
         }
 
-        //-------------------------SOBRECARGAR DE CONVERSION EXPLICITA -----------------------------//
 
-        public static explicit operator Numeracion(double valor)
-        {
-            return new Numeracion(valor, ESistema.Decimal);
-        }
-
+        
         //------------------------- SOBRECARGAR DE OPERADORES ARITMETICOS  +, -, *, / ---------------------------------------//
 
 
@@ -338,11 +345,9 @@ namespace Entidades
         {
             double resultado;
 
-            if (n1 == n2 && n2.ValorNumerico != "0")
+            if (n1 == n2 && n2.valorNumerico != 0)
             {
                 resultado = n1.valorNumerico / n2.valorNumerico;
-
-                //retorno una nueva instancia
 
             }
             else

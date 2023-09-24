@@ -49,61 +49,53 @@ namespace MiCalculadora
         private void btnOperar_Click(object sender, EventArgs e)
         {
 
-            if (int.TryParse(this.txbPrimerOperando.Text, out int primerOperado) &&
-                int.TryParse(this.txbSegundoOperando.Text, out int segundoOperando))
+            //LO HARCODEO
+            operadorUno = new Numeracion(this.txbPrimerOperando.Text, ESistema.Decimal);
+            operadorDos = new Numeracion(this.txbSegundoOperando.Text, ESistema.Decimal);
+
+            calculadora = new Operacion(operadorUno, operadorDos);
+
+            //Resultado es del tipo numeracion
+            resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
+
+            //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
+            this.lblResultado.Text = resultado.ValorNumerico;
+
+
+            //recorro el group box para obtener que button fue seleccionado
+            foreach (Control item in this.grbTipoSistema.Controls)
             {
-
-                //LO HARCODEO
-                operadorUno = new Numeracion(primerOperado, ESistema.Decimal);
-                operadorDos = new Numeracion(segundoOperando, ESistema.Decimal);
-
-                calculadora = new Operacion(operadorUno, operadorDos);
-
-                //Resultado es del tipo numeracion
-                resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
-
-                //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
-                this.lblResultado.Text = resultado.ValorNumerico;
-
-
-                //recorro el group box para obtener que button fue seleccionado
-                foreach (Control item in this.grbTipoSistema.Controls)
+                if (item is RadioButton radioButton && radioButton.Checked)
                 {
-                    if (item is RadioButton radioButton && radioButton.Checked)
+                    if (radioButton == this.rdbDecimal)
                     {
-                        if (radioButton == this.rdbDecimal)
-                        {
-                            //Muestro el resultado en decimal
-                            this.lblResultado.Text = resultado.ValorNumerico;
+                        //ASIGNO EL SISTEMA QUE SE MOSTRARA DECIMAL
+                        sistema = ESistema.Decimal;
 
-                        }
-                        else
-                        {
-                            //Muestro el resultado en binario
-                            this.lblResultado.Text = resultado.ConvertirA(ESistema.Binario);
-
-                        }
-
-                        this.lblResultado.Visible = true;
-                        break;
                     }
+                    else
+                    {
+                        //ASIGNO EL SISTEMA QUE SE MOSTRARA BINARIO
+                        sistema = ESistema.Binario;
+
+                    }
+                    break;
                 }
             }
-            else
-            {
-                this.lblResultado.Text = "Error";
-                this.lblResultado.Visible = true;
-            }
 
-
+            //MUESTRA EL RESULTADO
+            SetResultado();
 
         }
+            
+
+
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             this.txbPrimerOperando.Clear();
             this.txbSegundoOperando.Clear();
-
+            this.resultado = null;
             this.lblResultado.Visible = false;
         }
 
@@ -114,7 +106,7 @@ namespace MiCalculadora
 
         private void FrmCalculadora_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult resultado = MessageBox.Show("Estas seguro ? ","Cerrar",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+            DialogResult resultado = MessageBox.Show("Estas seguro ? ", "Cerrar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             if (resultado == DialogResult.Yes)
             {
@@ -122,8 +114,38 @@ namespace MiCalculadora
             }
             else
             {
-                e.Cancel =true;
+                e.Cancel = true;
             }
+        }
+
+        private void txbPrimerOperando_TextChanged(object sender, EventArgs e)
+        {
+            //FIJARME QUE PUEDE HACER ACA, TODAVIA NO SE
+        }
+
+        //PERMITO QUE SOLO SE INGRESEN NUMEROS
+        private void txbPrimerOperando_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                //SI NO ES NI UN NUMERO O UN CONTROL ESPECIA EJEMPLO BORRAR, NO PERMITO QUE ESCRIBA
+                e.Handled = true;
+            }
+        }
+
+        private void SetResultado()
+        {
+            if (sistema == ESistema.Binario)
+            {
+                this.lblResultado.Text = resultado.ConvertirA(ESistema.Binario);
+            }
+            else
+            {
+                this.lblResultado.Text = resultado.ValorNumerico;
+            }
+
+            this.lblResultado.Visible = true;
+
         }
     }
 }

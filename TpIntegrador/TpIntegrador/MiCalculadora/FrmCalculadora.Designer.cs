@@ -130,6 +130,8 @@
             txbPrimerOperando.Name = "txbPrimerOperando";
             txbPrimerOperando.Size = new Size(178, 43);
             txbPrimerOperando.TabIndex = 1;
+            txbPrimerOperando.TextChanged += txbPrimerOperando_TextChanged;
+            txbPrimerOperando.KeyPress += txbPrimerOperando_KeyPress;
             // 
             // label3
             // 
