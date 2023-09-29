@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "iohQbyNtXoO4fJ42agZhJ9fZwTZR9t/tEZ894p87ftj6IO5OhIaHQPkRK7mj4uT+53srl0wkJbhnmhNZrnwHYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\ProyectosPersonales\\Restaurante\\Restaurante\\Restaurante\\Restaurante.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lisandro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\Lisandro\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\Lisandro\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\Lisandro\\.nuget\\packages\\system.text.regularexpressions\\4.3.1\\system.text.regularexpressions.4.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

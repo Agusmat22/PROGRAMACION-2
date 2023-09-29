@@ -41,3 +41,4 @@ C:\Users\purri\Desktop\PROGRAMACION-2\Clase-Sabados\Clase-3\Login\Login\obj\Debu
 C:\Users\purri\Desktop\PROGRAMACION-2\Clase-Sabados\Clase-3\Login\Login\obj\Debug\net6.0-windows\Login.genruntimeconfig.cache
 C:\Users\purri\Desktop\PROGRAMACION-2\Clase-Sabados\Clase-3\Login\Login\obj\Debug\net6.0-windows\ref\Login.dll
 C:\Users\purri\Desktop\PROGRAMACION-2\Clase-Sabados\Clase-3\Login\Login\obj\Debug\net6.0-windows\Login.Contador.resources
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Clase-Sabados\Clase-3\Login\Login\obj\Debug\net6.0-windows\Login.Contador.resources

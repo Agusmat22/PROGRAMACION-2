@@ -21,7 +21,7 @@ namespace MiCalculadora
         Numeracion operadorDos;
         Numeracion resultado;
         Operacion calculadora;
-        ESistema sistema;
+        Numeracion.ESistema sistema;
 
 
         public FrmCalculadora()
@@ -41,62 +41,18 @@ namespace MiCalculadora
             //Selecciono de forma predeterminada un radioButton
             this.rdbDecimal.Checked = true;
 
-            //OCULTO EL RESULTADO
-            this.lblResultado.Visible = false;
-
+            //BORRO EL TEXTO RESULTADO PARA QUE NO SE VEA EL 0
+            this.lblResultado.Text = "";
         }
-
-        private void btnOperar_Click(object sender, EventArgs e)
-        {
-
-            //LO HARCODEO
-            operadorUno = new Numeracion(this.txbPrimerOperando.Text, ESistema.Decimal);
-            operadorDos = new Numeracion(this.txbSegundoOperando.Text, ESistema.Decimal);
-
-            calculadora = new Operacion(operadorUno, operadorDos);
-
-            //Resultado es del tipo numeracion
-            resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
-
-            //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
-            this.lblResultado.Text = resultado.ValorNumerico;
-
-
-            //recorro el group box para obtener que button fue seleccionado
-            foreach (Control item in this.grbTipoSistema.Controls)
-            {
-                if (item is RadioButton radioButton && radioButton.Checked)
-                {
-                    if (radioButton == this.rdbDecimal)
-                    {
-                        //ASIGNO EL SISTEMA QUE SE MOSTRARA DECIMAL
-                        sistema = ESistema.Decimal;
-
-                    }
-                    else
-                    {
-                        //ASIGNO EL SISTEMA QUE SE MOSTRARA BINARIO
-                        sistema = ESistema.Binario;
-
-                    }
-                    break;
-                }
-            }
-
-            //MUESTRA EL RESULTADO
-            SetResultado();
-
-        }
-            
-
-
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             this.txbPrimerOperando.Clear();
             this.txbSegundoOperando.Clear();
             this.resultado = null;
-            this.lblResultado.Visible = false;
+            this.operadorUno = null;
+            this.operadorDos = null;
+            this.lblResultado.Text = "";
         }
 
         private void BtnCerrar_Click(object sender, EventArgs e)
@@ -118,34 +74,99 @@ namespace MiCalculadora
             }
         }
 
+        /// <summary>
+        /// Instancia la clase numeracion cada vez que se presiona una tecla
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txbPrimerOperando_TextChanged(object sender, EventArgs e)
         {
-            //FIJARME QUE PUEDE HACER ACA, TODAVIA NO SE
+            operadorUno = new Numeracion(this.txbPrimerOperando.Text, Numeracion.ESistema.Decimal);
+
+        }
+
+        private void txbSegundoOperando_TextChanged(object sender, EventArgs e)
+        {
+            operadorDos = new Numeracion(this.txbSegundoOperando.Text, Numeracion.ESistema.Decimal);
+        }
+
+        /// <summary>
+        /// Asigno el sistema que se visualizara el resultado al ser seleccionado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void rdbDecimal_CheckedChanged(object sender, EventArgs e)
+        {
+            sistema = Numeracion.ESistema.Decimal;
+
+            SetResultado();
+        }
+
+        private void rdbBinario_CheckedChanged(object sender, EventArgs e)
+        {
+            sistema = Numeracion.ESistema.Binario;
+
+            SetResultado();
         }
 
         //PERMITO QUE SOLO SE INGRESEN NUMEROS
         private void txbPrimerOperando_KeyPress(object sender, KeyPressEventArgs e)
         {
+
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
-                //SI NO ES NI UN NUMERO O UN CONTROL ESPECIA EJEMPLO BORRAR, NO PERMITO QUE ESCRIBA
-                e.Handled = true;
+                //SI NO ES NI UN NUMERO O UN CONTROL ESPECIAL EJEMPLO BORRAR, NO PERMITO QUE ESCRIBA
+                e.Handled = true; //true es para cancelar 
             }
         }
 
+        private void txbSegundoOperando_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                //SI NO ES NI UN NUMERO O UN CONTROL ESPECIAL EJEMPLO BORRAR, NO PERMITO QUE ESCRIBA
+                e.Handled = true; //true es para cancelar 
+            }
+        }
+
+        //REVISAR ESTE APARTADO
         private void SetResultado()
         {
-            if (sistema == ESistema.Binario)
+            if (resultado is not null)
             {
-                this.lblResultado.Text = resultado.ConvertirA(ESistema.Binario);
-            }
-            else
-            {
-                this.lblResultado.Text = resultado.ValorNumerico;
+                if (sistema != Numeracion.ESistema.Decimal && operadorDos.ValorNumerico != "0")
+                {
+                    this.lblResultado.Text = resultado.ConvertirA(this.sistema);
+                }
+                else
+                {
+                    this.lblResultado.Text = resultado.ValorNumerico;
+                }
             }
 
-            this.lblResultado.Visible = true;
 
         }
+
+
+
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+            if (operadorUno is not null && operadorDos is not null)
+            {
+                calculadora = new Operacion(operadorUno, operadorDos);
+
+                //Resultado es del tipo numeracion
+                resultado = calculadora.Operar(this.cmbTipoOperacion.Text[0]);
+
+                //AL INDICAR LA POSICION DE UN STIRNG LO ESTARIA LEYENDO COMO UN CHAR
+                this.lblResultado.Text = resultado.ValorNumerico;
+
+                SetResultado();
+
+            }
+
+        }
+
+        
     }
 }

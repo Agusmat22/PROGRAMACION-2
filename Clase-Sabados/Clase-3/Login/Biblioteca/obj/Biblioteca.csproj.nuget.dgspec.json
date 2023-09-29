@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\purri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Clase-Sabados\\Clase-3\\Login\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\purri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

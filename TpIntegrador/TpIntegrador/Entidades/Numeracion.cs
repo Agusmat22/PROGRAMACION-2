@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    //Enumerado con el tipo de sistema.
-    public enum ESistema
-    {
-        Decimal,
-        Binario
-    }
+    
 
     public class Numeracion
     {
+        //Enumerado con el tipo de sistema.
+        public enum ESistema
+        {
+            Decimal,
+            Binario
+        }
+
         private ESistema sistema;
         private double valorNumerico;
 
@@ -33,26 +35,42 @@ namespace Entidades
 
         //GETTERS
         public ESistema Sistema
-        { 
-            get { return sistema; }
-        }
+        {
+            get
+            {
+                return this.sistema;
+            }
+            
+            set
+            {
+                this.sistema = value;
+            }
 
+        }
         public string ValorNumerico
         {
             get
             {
-                if (valorNumerico == double.MinValue)
+                string valor;
+
+                if (valorNumerico == double.MinValue) //valido si es infinito para las operaaciones de minValue
                 {
-                    return "Error";
+                    valor = "Error";
+                }
+                else if(double.IsInfinity(valorNumerico))
+                {
+                    valor = "No se puede dividir por cero";
                 }
                 else if(Sistema == ESistema.Binario)
                 {
-                    return DecimalABinario(valorNumerico);
+                    valor = DecimalABinario(valorNumerico);
                 }
                 else
                 {
-                    return valorNumerico.ToString();
+                    valor = valorNumerico.ToString();
                 }
+
+                return valor;
 
             }
 
@@ -175,7 +193,8 @@ namespace Entidades
         {
 
             string numeroBinario = "";
-            if (int.TryParse(valor, out int numeroDecimal))
+            //valido que sea numerico y que sea mayor a 0 ya que binarios negativos no se puede
+            if (int.TryParse(valor, out int numeroDecimal) && numeroDecimal > 0)
             {
                 int divisor = 2;
                 double resto;
@@ -345,7 +364,7 @@ namespace Entidades
         {
             double resultado;
 
-            if (n1 == n2 && n2.valorNumerico != 0)
+            if (n1 == n2)
             {
                 resultado = n1.valorNumerico / n2.valorNumerico;
 

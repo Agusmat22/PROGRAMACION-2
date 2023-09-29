@@ -2,6 +2,7 @@
 {
     public class Operacion
     {
+
         //atributos del tipo Numeracion
         private Numeracion primerOperando;
         private Numeracion segundoOperando;

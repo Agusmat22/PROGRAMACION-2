@@ -2,106 +2,46 @@
 
 namespace Entidades
 {
-    public class AutoF1
+    public class AutoF1 : VehiculoDeCarrera
     {
-        private short cantidadCombustible;
-        private bool enCompetencia;
-        private string escuderia;
-        private short numero;
-        private short vueltasRestantes;
+        private short caballosDeFuerza;
 
-        private AutoF1()
+        public AutoF1(string escuderia, short numero):base(escuderia,numero)
         {
-            this.enCompetencia = false;
-            this.cantidadCombustible = 0;
-            this.vueltasRestantes = 0;
+            
         }
 
-        public AutoF1(short numero,string escuderia):this()
-        { 
-            this.numero = numero;
-            this.escuderia = escuderia;
+        public AutoF1(string escuderia,short numero,short caballosDeFuerza): this(escuderia,numero)
+        {
+            this.CaballosDeFuerza = caballosDeFuerza;
         }
 
-        public short Numero
+        public short CaballosDeFuerza 
         {
             get
             {
-                return this.numero;
-            }
-        }
-
-        public string Escuderia
-        {
-            get
-            {
-                return this.escuderia;
-            }
-        }
-
-        public short VueltasRestantes
-        {
-            get 
-            {
-                return this.vueltasRestantes;
+                return caballosDeFuerza;
             }
 
             set
             {
-                if (value > 0 && value < 20)
-                {
-                    this.vueltasRestantes = value; 
-                }
-
+                caballosDeFuerza = value;
             }
         }
-
-        public short CantidadCombustible
-        {
-            get
-            {
-                return this.cantidadCombustible;
-            }
-
-            set
-            {
-                if (value > 0 && value < 100)
-                {
-                    this.cantidadCombustible = value;
-                }
-            }
-        }
-
-        public bool EnCompetencia
-        {
-            get
-            {
-                return this.enCompetencia;
-            }
-
-            set
-            {
-                
-                this.enCompetencia = value;
-            }
-        }
-
 
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Numero: {this.numero}");
-            sb.AppendLine($"Vueltas restantes: {this.vueltasRestantes}");
-            sb.AppendLine($"Cantidad de combustible: {this.cantidadCombustible}");
-            sb.AppendLine($"Escuderia: {this.escuderia}");
+            sb.Append(base.MostrarDatos());
+            sb.AppendLine($"Caballos de fuerza: {this.CaballosDeFuerza}");
 
             return sb.ToString();
         }
 
-        public static bool operator ==(AutoF1 a1,AutoF1 a2)
+        public static bool operator ==(AutoF1 a1, AutoF1 a2)
         {
-            return a1.Numero == a2.Numero && a1.Escuderia == a2.Escuderia;
+            return a1.CaballosDeFuerza == a2.CaballosDeFuerza;
         }
 
         public static bool operator !=(AutoF1 a1, AutoF1 a2)

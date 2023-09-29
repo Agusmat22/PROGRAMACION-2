@@ -21,6 +21,7 @@ namespace TestCalculadora
 
             //Console.WriteLine(resultado.ValorNumerico);
             Console.WriteLine(resultado2.ConvertirA(ESistema.Binario));
+            Console.WriteLine(operador3.ValorNumerico);
         }
     }
 }

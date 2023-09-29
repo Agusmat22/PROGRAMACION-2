@@ -2,26 +2,36 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Entidades
 {
     public class Competencia
     {
+        public enum TipoCompetencia
+        {
+            F1,
+            MotoCross
+        }
+
+
         private short cantidadCompetidores;
         private short cantidadVueltas;
-        private List<AutoF1> competidores;
+        private List<VehiculoDeCarrera> competidores;
+        private TipoCompetencia tipo;
 
 
         private Competencia()
         {
-            competidores = new List<AutoF1>();
+            competidores = new List<VehiculoDeCarrera>();
         }
 
-        public Competencia(short cantidadCompetidores, short cantidadVueltas):this()
+        public Competencia(short cantidadCompetidores, short cantidadVueltas,TipoCompetencia tipo):this()
         {
             this.cantidadCompetidores = cantidadCompetidores;
             this.cantidadVueltas = cantidadVueltas;
+            this.tipo = tipo;
         }
 
         public short CantidadCompetidores
@@ -48,44 +58,66 @@ namespace Entidades
             }
         }
 
-        public static bool operator == (Competencia competencia, AutoF1 auto)
+        public TipoCompetencia Tipo
+        {
+            get
+            {
+                return this.tipo;
+            }
+        }
+
+        /// <summary>
+        /// Retorna true si el vehiculo esta dentro de la competencia o si difierente el tipo de competencia con vehiculo
+        /// </summary>
+        /// <param name="competencia"></param>
+        /// <param name="vehiculo"></param>
+        /// <returns></returns>
+        public static bool operator == (Competencia competencia, VehiculoDeCarrera vehiculo)
         {
 
             bool value = false;
-
-            if (competencia.competidores.Count > 0)
+            //Valido si la competencia es de f1 y si el vehiculo es del tipo de la class Autof1
+            if (competencia.Tipo == Competencia.TipoCompetencia.F1 && vehiculo.GetType() == typeof(AutoF1) ||
+                            competencia.Tipo == Competencia.TipoCompetencia.MotoCross && vehiculo.GetType() == typeof(MotoCross))
             {
-                foreach (AutoF1 auto1 in competencia.competidores)
+                if (competencia.competidores.Count > 0)
                 {
-                    if (auto1 == auto)
+                    foreach (VehiculoDeCarrera vehiculoGuardado in competencia.competidores)
                     {
-                        value = true;
-                        break;
+                        if (vehiculoGuardado == vehiculo)
+                        {
+                            value = true;
+                            break;
+                        }
                     }
                 }
+
             }
-            
+            else
+            {
+                value = true;
+            }
+
             return value;
-
         }
 
-        public static bool operator !=(Competencia competencia, AutoF1 auto)
+        public static bool operator !=(Competencia competencia, VehiculoDeCarrera vehiculo)
         {
-            return !(competencia == auto);
+            return !(competencia == vehiculo);
         }
 
-        public static bool operator +(Competencia competencia, AutoF1 auto)
+        public static bool operator +(Competencia competencia, VehiculoDeCarrera vehiculo)
         {
             bool value = true;
 
-            if (competencia.competidores.Count <= competencia.cantidadCompetidores && competencia != auto)
+            if (competencia.competidores.Count < competencia.cantidadCompetidores && competencia != vehiculo)
             {
                 Random random = new Random();
 
-                competencia.competidores.Add(auto);
-                auto.EnCompetencia = true;
-                auto.VueltasRestantes = competencia.cantidadVueltas;
-                auto.CantidadCombustible = (short)random.Next(15, 100);
+                competencia.competidores.Add(vehiculo);
+                vehiculo.EnCompetencia = true;
+                vehiculo.VueltasRestantes = competencia.cantidadVueltas;
+                vehiculo.CantidadCombustible = (short)random.Next(15, 100);
             }
             else
             {

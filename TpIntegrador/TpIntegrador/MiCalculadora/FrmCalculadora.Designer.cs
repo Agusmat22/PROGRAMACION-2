@@ -90,6 +90,8 @@
             txbSegundoOperando.Name = "txbSegundoOperando";
             txbSegundoOperando.Size = new Size(178, 43);
             txbSegundoOperando.TabIndex = 3;
+            txbSegundoOperando.TextChanged += txbSegundoOperando_TextChanged;
+            txbSegundoOperando.KeyPress += txbSegundoOperando_KeyPress;
             // 
             // cmbTipoOperacion
             // 
@@ -166,6 +168,7 @@
             rdbBinario.TabStop = true;
             rdbBinario.Text = "Binario";
             rdbBinario.UseVisualStyleBackColor = true;
+            rdbBinario.CheckedChanged += rdbBinario_CheckedChanged;
             // 
             // rdbDecimal
             // 
@@ -179,6 +182,7 @@
             rdbDecimal.TabStop = true;
             rdbDecimal.Text = "Decimal";
             rdbDecimal.UseVisualStyleBackColor = true;
+            rdbDecimal.CheckedChanged += rdbDecimal_CheckedChanged;
             // 
             // label1
             // 
@@ -194,7 +198,7 @@
             // 
             lblResultado.AutoSize = true;
             lblResultado.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            lblResultado.Location = new Point(259, 39);
+            lblResultado.Location = new Point(240, 39);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(27, 32);
             lblResultado.TabIndex = 12;
