@@ -17,6 +17,7 @@ namespace Centralita
 
         protected Franja franjaHoraria;
 
+
         public Provincial(string origen, Franja franjaHoraria , float duracion, string destino ) 
             : base(duracion,destino,origen)
         {
@@ -30,13 +31,11 @@ namespace Centralita
         }
 
         //PROPERTY
-        public float CostoLlamada
+        public override float CostoLlamada
         {
-            get
-            {
-                return CalcularCosto();
-            }
+            get { return CalcularCosto(); }
         }
+
 
 
         //METHOD
@@ -58,6 +57,32 @@ namespace Centralita
             }
 
             return this.Duracion * costo;
+        }
+
+        protected override string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append(base.Mostrar());
+            sb.AppendLine($"Costo de la llamada: {this.CostoLlamada}");
+            sb.AppendLine($"Franja horaria: {this.franjaHoraria}");
+
+            return sb.ToString();
+        }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Provincial llamada)
+            {
+                return this == llamada;
+            }
+
+            return false;
+        }
+
+        public override string ToString()
+        {
+            return Mostrar();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Centralita
 {
-    public class Llamada
+    public abstract class Llamada
     {
         public enum TipoLlamada
         {
@@ -27,6 +27,9 @@ namespace Centralita
         }
 
         //PROPERTY
+
+        public abstract float CostoLlamada { get; }
+
         public float Duracion
         {
             get { return this.duracion; }
@@ -44,6 +47,20 @@ namespace Centralita
 
         }
 
+        //OVERLOAD
+        public static bool operator ==(Llamada a,Llamada b)
+        {
+            return a.GetType() == b.GetType() && a.NroDestino == b.NroDestino && a.NroOrigen == b.NroOrigen;
+        }
+        public static bool operator !=(Llamada a, Llamada b)
+        {
+            return !(a == b);
+        }
+
+        //APPLY POLIMORFISMO
+
+        
+
 
         //METHOD
 
@@ -59,7 +76,7 @@ namespace Centralita
         }
 
         //Metodo de instancia
-        public string Mostrar()
+        protected virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 

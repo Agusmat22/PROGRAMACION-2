@@ -17,6 +17,11 @@ namespace Centralita
             this.razonSocial = nombreEmpresa;
         }
 
+        /// <summary>
+        /// Calcula las ganancias segun el tipo de llamada ingresado
+        /// </summary>
+        /// <param name="tipo"></param>
+        /// <returns></returns>
         private float CalcularGanancia(Llamada.TipoLlamada tipo)
         {
             float ganancia = 0f;
@@ -57,7 +62,7 @@ namespace Centralita
             get
             {
                 return CalcularGanancia(Llamada.TipoLlamada.Provincial);
-
+                
             }
         }
 
@@ -76,9 +81,50 @@ namespace Centralita
 
         }
 
+        //OVERLOAD
+
+        public static bool operator ==(Centralitaa centralita,Llamada llamada)
+        {
+            bool valor = false;
+
+            if (centralita.Llamadas.Count > 0)
+            {
+                foreach (Llamada item in centralita.Llamadas)
+                {
+                    if (item == llamada)
+                    {
+                        valor = true;
+                        break;
+                    }
+                }
+            }
+
+            return valor;
+        }
+
+        public static bool operator !=(Centralitaa centralita,Llamada llamada)
+        {
+            return !(centralita == llamada);
+        }
 
 
-        public string Mostrar()
+        public static bool operator +(Centralitaa centralita, Llamada llamada)
+        {
+            bool valor = false;
+
+            if (centralita != llamada)
+            {
+                centralita.AgregarLlamada(llamada);
+                valor = true;
+            }
+
+            return valor;
+        }
+
+
+        //METHOD
+
+        private string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -90,9 +136,34 @@ namespace Centralita
             return sb.ToString();   
         }
 
+        /// <summary>
+        /// Ordena la lista de llamadas mediante el metodo comparison
+        /// </summary>
         public void OrdenarLlamadas()
         {
             listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
         }
+
+        
+        /// <summary>
+        /// Agrega una llamada a la lista validando que no este dentro
+        /// </summary>
+        /// <param name="llamada"></param>
+        private void AgregarLlamada(Llamada llamada)
+        {
+           
+            this.listaDeLlamadas.Add(llamada);
+            
+                
+        }
+
+        //POLIMORFISMO
+
+        public override string ToString()
+        {
+            return Mostrar();
+        }
+
+
     }
 }

@@ -23,12 +23,10 @@ namespace Centralita
         }
 
         //PROPERTY
-        public float CostoLlamada
+        
+        public override float CostoLlamada
         {
-            get 
-            {
-                return CalcularCosto();
-            }
+            get { return CalcularCosto(); }
         }
 
         /// <summary>
@@ -44,7 +42,7 @@ namespace Centralita
         /// Muestra el metodo padre y agrega el costo de la llamada
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -52,6 +50,21 @@ namespace Centralita
             sb.AppendLine($"Costo de la llamada: {this.CostoLlamada}");
 
             return sb.ToString();         
+        }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Local llamada)
+            {
+                return this == llamada;
+            }
+
+            return false;
+        }
+
+        public override string ToString()
+        {
+            return Mostrar();
         }
     }
 }
