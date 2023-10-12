@@ -28,16 +28,12 @@ namespace Entidades
         }
 
         //SOBRECARGA
-        
-        public static bool operator ==(Guarnicion g,EIngredientes ingrediente)
-        {
-            if (ingrediente is EIngredientes.PANCETA || ingrediente is EIngredientes.ADHERESO ||
-                ingrediente is EIngredientes.QUESO)
-            {
-                return true;
-            }
 
-            return false;
+        public static bool operator ==(Guarnicion g, EIngredientes ingrediente)
+        {
+
+            return ingrediente is EIngredientes.PANCETA || ingrediente is EIngredientes.ADHERESO || ingrediente is EIngredientes.QUESO;
+
         }
 
 
@@ -63,8 +59,9 @@ namespace Entidades
 
         protected override string AgregarIngrediente(EIngredientes ingrediente)
         {
-            if (this + ingrediente && this == ingrediente)
+            if ((Comida)this != ingrediente && this == ingrediente)
             {
+                base.ingredientes.Add(ingrediente);
                 return $"Se agrego {ingrediente} a su guarnicion";
             }
             else

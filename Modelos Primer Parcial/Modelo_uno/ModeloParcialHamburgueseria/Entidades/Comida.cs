@@ -115,17 +115,9 @@ namespace Entidades
             return !(c == ingrediente); 
         }
 
-        public static bool operator +(Comida c,EIngredientes ingrediente)
+        public static string operator +(Comida c,EIngredientes ingrediente)
         {
-            if (c != ingrediente)
-            {
-                c.ingredientes.Add(ingrediente);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return c.AgregarIngrediente(ingrediente);
         }
 
     }

@@ -20,25 +20,12 @@ namespace Test
             Console.WriteLine("Guarnicion");
             Console.WriteLine(g.Descripcion);
 
-            if (c + h)
-            {
-                Console.WriteLine("Se pudo agregar la comida");
-            }
-            else
-            {
-                Console.WriteLine("No se pudo agregar la comida ");
+            //c += h;
 
-            }
-            if (c + g)
-            {
-                Console.WriteLine("Se pudo agregar la guarnicion ");
+            //c += g;
 
-            }
-            else
-            {
-                Console.WriteLine("No se pudo agregar la guarnicion ");
-
-            }
+            Console.WriteLine(c == h);
+            
 
             Console.WriteLine("Cliente");
             Console.WriteLine(Cliente.ImprimirTicket(c));

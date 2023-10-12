@@ -60,29 +60,24 @@ namespace Entidades
             return null;
         }
 
-        public static bool operator +(Cliente cliente, Comida comida)
+        public static Cliente operator +(Cliente cliente, Comida comida)
         {
             if (cliente != comida)
             {
                 cliente.menu.Add(comida);
-                return true;
-
             }
 
-            return false;
+            return cliente;
             
         }
 
         public static bool operator ==(Cliente cliente, Comida comida)
         {
-            if (cliente.menu.Count > 0)
+            foreach (Comida item in cliente.menu)
             {
-                foreach (Comida item in cliente.menu)
+                if (item.Equals(comida))
                 {
-                    if (comida == item)
-                    {
-                        return true;
-                    }
+                    return true;
                 }
             }
 

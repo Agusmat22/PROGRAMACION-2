@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Lisandro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Modelos Primer Parcial\\Modelo_uno\\ModeloParcialHamburgueseria\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Modelos Primer Parcial\\Modelo_uno\\ModeloParcialHamburgueseria\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Modelos Primer Parcial\\Modelo_uno\\ModeloParcialHamburgueseria\\Entidades\\Entidades.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Modelos Primer Parcial\\Modelo_uno\\ModeloParcialHamburgueseria\\Entidades\\obj\\",
+      "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Modelos Primer Parcial\\Modelo_uno\\ModeloParcialHamburgueseria\\Entidades\\Entidades.csproj",
+      "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Modelos Primer Parcial\\Modelo_uno\\ModeloParcialHamburgueseria\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

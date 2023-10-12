@@ -31,8 +31,9 @@ namespace Entidades
         {
             string mensaje;
 
-            if (this + ingrediente)
+            if ((Comida)this != ingrediente)
             {
+                base.ingredientes.Add(ingrediente);
                 mensaje = $"Se agrego {ingrediente} a su hamburguesa";
             }
             else

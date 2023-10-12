@@ -161,16 +161,21 @@ namespace Entidades
                 {
                     //Ingreso al ultimo caracter
                     caracter = valor[i];
-                    int.TryParse(caracter.ToString(), out digito);
+                    
+                    if (int.TryParse(caracter.ToString(), out digito))
+                    {
+                        //A medida que el I decrece aumenta la potencia, esta pensado de derecha a izquierda
+                        numeroDecimal += digito * Math.Pow(2, (cantidadCaracteres - i));
+                    }
+                    else
+                    {
+                        numeroDecimal = 0;
+                        break;
+                    }
 
-                    //A medida que el I decrece aumenta la potencia, esta pensado de derecha a izquierda
-                    numeroDecimal += digito * Math.Pow(2, (cantidadCaracteres - i));
                 }
             }
-            else
-            {
-                numeroDecimal = 0;
-            }
+            
 
             return numeroDecimal;
         }
