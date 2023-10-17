@@ -10,3 +10,14 @@ C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\Centra
 C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\refint\Centralita.dll
 C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.pdb
 C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\ref\Centralita.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\bin\Debug\net6.0\Centralita.deps.json
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\bin\Debug\net6.0\Centralita.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\bin\Debug\net6.0\Centralita.pdb
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.AssemblyInfoInputs.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.AssemblyInfo.cs
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.csproj.CoreCompileInputs.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\refint\Centralita.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\Centralita.pdb
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Herencia\LaCentralita\CentralTelefonica\Centralita\obj\Debug\net6.0\ref\Centralita.dll

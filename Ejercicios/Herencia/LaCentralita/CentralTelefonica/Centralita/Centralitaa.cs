@@ -82,7 +82,12 @@ namespace Centralita
         }
 
         //OVERLOAD
-
+        /// <summary>
+        /// El operador == retornará true si la centralita contiene la llamada en su lista genérica
+        /// </summary>
+        /// <param name="centralita"></param>
+        /// <param name="llamada"></param>
+        /// <returns></returns>
         public static bool operator ==(Centralitaa centralita,Llamada llamada)
         {
             bool valor = false;
@@ -116,6 +121,11 @@ namespace Centralita
             {
                 centralita.AgregarLlamada(llamada);
                 valor = true;
+                
+            }
+            else
+            {
+                throw new CentralitaException("La llamada ya se encuentra registrada en la centralita");
             }
 
             return valor;

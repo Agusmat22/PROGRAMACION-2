@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "AshePWM0wxNKjY1B6K2919taxwCsoJ1jKRT5WIX79geUdT+oqLUK0pxhvZQRU4QDuABIzoZ2D+8awsDpDhW/xQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\LaCentralita_III\\Centralita-ll\\Centralita-ll\\Test\\Test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

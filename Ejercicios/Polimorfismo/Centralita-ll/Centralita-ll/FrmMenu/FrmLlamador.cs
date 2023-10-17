@@ -149,14 +149,23 @@ namespace Formularios
 
         private void btnLlamar_Click(object sender, EventArgs e)
         {
-            if (llamadaLocal is not null && centralita + llamadaLocal || 
-                        llamadaProvincial is not null && centralita + llamadaProvincial )
+            try
             {
-                this.txtDestino.Text = "En llamada";
+                if (llamadaLocal is not null && centralita + llamadaLocal ||
+                        llamadaProvincial is not null && centralita + llamadaProvincial)
+                {
+                    this.txtDestino.Text = "En llamada";
+                }
+                else
+                {
+                    this.txtDestino.Text = "Error, no se pudo llamar";
+
+                }
+
             }
-            else
+            catch (CentralitaException ex)
             {
-                this.txtDestino.Text = "Error, no se pudo llamar";
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK);
 
             }
         }

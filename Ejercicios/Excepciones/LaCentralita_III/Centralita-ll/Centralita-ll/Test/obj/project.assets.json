@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\purri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\LaCentralita_III\\Centralita-ll\\Centralita-ll\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\LaCentralita_III\\Centralita-ll\\Centralita-ll\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\purri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\LaCentralita_III\\Centralita-ll\\Centralita-ll\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\purri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj": {
+              "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Excepciones\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

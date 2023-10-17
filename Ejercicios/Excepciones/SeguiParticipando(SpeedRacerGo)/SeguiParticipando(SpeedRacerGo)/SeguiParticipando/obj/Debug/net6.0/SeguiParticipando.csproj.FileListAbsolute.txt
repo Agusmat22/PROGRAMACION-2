@@ -1,0 +1,14 @@
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\bin\Debug\net6.0\SeguiParticipando.exe
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\bin\Debug\net6.0\SeguiParticipando.deps.json
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\bin\Debug\net6.0\SeguiParticipando.runtimeconfig.json
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\bin\Debug\net6.0\SeguiParticipando.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\bin\Debug\net6.0\SeguiParticipando.pdb
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.AssemblyInfoInputs.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.AssemblyInfo.cs
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.csproj.CoreCompileInputs.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\refint\SeguiParticipando.dll
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.pdb
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\SeguiParticipando.genruntimeconfig.cache
+C:\Users\purri\Desktop\PROGRAMACION-2\Ejercicios\Excepciones\SeguiParticipando(SpeedRacerGo)\SeguiParticipando(SpeedRacerGo)\SeguiParticipando\obj\Debug\net6.0\ref\SeguiParticipando.dll

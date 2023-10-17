@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsAtrapame", "FormsAtrapame\FormsAtrapame.csproj", "{630E0C72-1DC9-408D-8427-ED4ADA57CFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{74C1BAA7-CAE8-4DF8-B6B7-D5265C85825E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{630E0C72-1DC9-408D-8427-ED4ADA57CFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630E0C72-1DC9-408D-8427-ED4ADA57CFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630E0C72-1DC9-408D-8427-ED4ADA57CFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630E0C72-1DC9-408D-8427-ED4ADA57CFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C1BAA7-CAE8-4DF8-B6B7-D5265C85825E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C1BAA7-CAE8-4DF8-B6B7-D5265C85825E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C1BAA7-CAE8-4DF8-B6B7-D5265C85825E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C1BAA7-CAE8-4DF8-B6B7-D5265C85825E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7228A4F5-CA20-4A1C-9C22-15F898A602E6}
+	EndGlobalSection
+EndGlobal
