@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanzarYAtrapar", "LanzarYAtrapar.csproj", "{521D304B-EC8D-4E9C-8880-73B76D17E1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Entidades\Entidades.csproj", "{7A60ED02-E860-4427-B3A9-C858A65F9792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521D304B-EC8D-4E9C-8880-73B76D17E1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521D304B-EC8D-4E9C-8880-73B76D17E1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521D304B-EC8D-4E9C-8880-73B76D17E1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521D304B-EC8D-4E9C-8880-73B76D17E1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A60ED02-E860-4427-B3A9-C858A65F9792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A60ED02-E860-4427-B3A9-C858A65F9792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A60ED02-E860-4427-B3A9-C858A65F9792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A60ED02-E860-4427-B3A9-C858A65F9792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ADDFE1C-05D7-425F-8417-8DB35D121B9D}
+	EndGlobalSection
+EndGlobal

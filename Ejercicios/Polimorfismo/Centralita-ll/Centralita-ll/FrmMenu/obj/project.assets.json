@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\purri\\.nuget\\packages\\": {}
+    "C:\\Users\\Lisandro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Polimorfismo\\Centralita-ll\\Centralita-ll\\FrmMenu\\Formularios.csproj",
+      "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Polimorfismo\\Centralita-ll\\Centralita-ll\\FrmMenu\\Formularios.csproj",
       "projectName": "Formularios",
-      "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Polimorfismo\\Centralita-ll\\Centralita-ll\\FrmMenu\\Formularios.csproj",
-      "packagesPath": "C:\\Users\\purri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Polimorfismo\\Centralita-ll\\Centralita-ll\\FrmMenu\\obj\\",
+      "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Polimorfismo\\Centralita-ll\\Centralita-ll\\FrmMenu\\Formularios.csproj",
+      "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Polimorfismo\\Centralita-ll\\Centralita-ll\\FrmMenu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\purri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj": {
-              "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj"
+            "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj": {
+              "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Herencia\\LaCentralita\\CentralTelefonica\\Centralita\\Centralita.csproj"
             }
           }
         }
