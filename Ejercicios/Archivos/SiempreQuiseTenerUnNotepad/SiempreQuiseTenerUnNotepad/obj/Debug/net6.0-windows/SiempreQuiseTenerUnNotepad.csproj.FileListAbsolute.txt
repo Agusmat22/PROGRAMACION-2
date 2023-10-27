@@ -1,0 +1,17 @@
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.exe
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.deps.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.runtimeconfig.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.Form1.resources
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.AssemblyInfo.cs
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\refint\SiempreQuiseTenerUnNotepad.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.genruntimeconfig.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Archivos\SiempreQuiseTenerUnNotepad\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\ref\SiempreQuiseTenerUnNotepad.dll
