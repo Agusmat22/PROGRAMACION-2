@@ -1,10 +1,15 @@
-﻿namespace PlacaDeCronicaTV
+﻿using Entidades;
+
+namespace PlacaDeCronicaTV
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DateTime fecha = DateTime.Now;
+
+
+            Console.WriteLine($"Dia de diferencia: {fecha.ObtenerPlacaCronicaTV(Entidades.EEstaciones.Verano)}");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Centralita.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Centralita
 {
-    public abstract class Llamada
+    public abstract class Llamada : IGuardar<string>
     {
         public enum TipoLlamada
         {
@@ -46,6 +47,7 @@ namespace Centralita
             get { return this.nroOrigen; }
 
         }
+
 
         //OVERLOAD
         public static bool operator ==(Llamada a,Llamada b)
@@ -88,6 +90,17 @@ namespace Centralita
         }
 
 
+        public string RutaDeArchivo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
+
+        public bool Guardar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Leer()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

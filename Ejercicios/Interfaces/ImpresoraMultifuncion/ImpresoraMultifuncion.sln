@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpresoraMultifuncion", "ImpresoraMultifuncion\ImpresoraMultifuncion.csproj", "{66D0B79C-8C8E-4EB6-91E3-C8AEB2AC415B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{D645E769-73DA-415B-86E9-655068561792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D0B79C-8C8E-4EB6-91E3-C8AEB2AC415B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D0B79C-8C8E-4EB6-91E3-C8AEB2AC415B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D0B79C-8C8E-4EB6-91E3-C8AEB2AC415B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D0B79C-8C8E-4EB6-91E3-C8AEB2AC415B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D645E769-73DA-415B-86E9-655068561792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D645E769-73DA-415B-86E9-655068561792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D645E769-73DA-415B-86E9-655068561792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D645E769-73DA-415B-86E9-655068561792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE33824C-3502-44B8-8243-BB87EB69F046}
+	EndGlobalSection
+EndGlobal

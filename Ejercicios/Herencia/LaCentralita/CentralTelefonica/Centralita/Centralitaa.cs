@@ -1,8 +1,9 @@
-﻿using System.Text;
+﻿using Centralita.Interfaces;
+using System.Text;
 
 namespace Centralita
 {
-    public class Centralitaa
+    public class Centralitaa : IGuardar<string>
     {
         private List<Llamada> listaDeLlamadas;
         protected string razonSocial;
@@ -80,6 +81,7 @@ namespace Centralita
             get { return listaDeLlamadas; }
 
         }
+
 
         //OVERLOAD
         /// <summary>
@@ -174,6 +176,23 @@ namespace Centralita
             return Mostrar();
         }
 
+        //APLICANDO EL CONTRATO DE LA INTERFAZ PERO NO LO ENTENDI
 
+        public string RutaDeArchivo 
+        { 
+            get => throw new NotImplementedException(); 
+            set => throw new NotImplementedException(); 
+        }
+
+
+        public bool Guardar()
+        {
+            return true;
+        }
+
+        public string Leer()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
