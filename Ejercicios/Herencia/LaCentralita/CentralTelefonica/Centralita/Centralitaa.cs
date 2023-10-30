@@ -1,5 +1,6 @@
 ﻿using Centralita.Interfaces;
 using System.Text;
+using Centralita.Excepciones;
 
 namespace Centralita
 {
@@ -119,16 +120,26 @@ namespace Centralita
         {
             bool valor = false;
 
-            if (centralita != llamada)
+            try
             {
-                centralita.AgregarLlamada(llamada);
-                valor = true;
-                
+                if (centralita != llamada)
+                {
+                    centralita.AgregarLlamada(llamada);
+                    valor = centralita.Guardar();
+
+                }
+                else
+                {
+                    throw new CentralitaException("La llamada ya se encuentra registrada en la centralita");
+                }
+
             }
-            else
-            {
-                throw new CentralitaException("La llamada ya se encuentra registrada en la centralita");
+            catch (FallaLogException ex) 
+            { 
+                throw ex;
             }
+
+            
 
             return valor;
         }
@@ -178,21 +189,67 @@ namespace Centralita
 
         //APLICANDO EL CONTRATO DE LA INTERFAZ PERO NO LO ENTENDI
 
-        public string RutaDeArchivo 
-        { 
-            get => throw new NotImplementedException(); 
-            set => throw new NotImplementedException(); 
-        }
+        public string RutaDeArchivo { get; set; }
+        
 
-
+        /// <summary>
+        /// Guardara la fecha y hora en que se realizo una llamada X
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="FallaLogException">Se lanzara cuando la llamada no pueda guardarse</exception>
         public bool Guardar()
         {
-            return true;
+            try
+            {
+                //obtengo el directorio
+                this.RutaDeArchivo = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+                this.RutaDeArchivo = Path.Combine(this.RutaDeArchivo, "Registro de llamadas centralita");
+
+                if (!Directory.Exists(this.RutaDeArchivo))
+                {
+                    Directory.CreateDirectory(this.RutaDeArchivo);
+                }
+
+                string nombreArchivo = "Llamada.txt";
+
+                this.RutaDeArchivo = Path.Combine(this.RutaDeArchivo, nombreArchivo);
+
+                using (StreamWriter streamWriter = new StreamWriter(this.RutaDeArchivo))
+                {
+                    DateTime fechaActual = DateTime.Now;
+                    string mensaje = $"El dia {fechaActual.ToString("dddd")} {fechaActual.Day} de {fechaActual.ToString("MMMM")} de {fechaActual.Year} {fechaActual.ToString("HH,mm,ss")}";
+
+                    streamWriter.Write(mensaje);
+                }      
+            }
+            catch (Exception ex)
+            {
+                throw new FallaLogException("Error al guardar el archivo", ex);
+            }
+
+
+           return true;
         }
 
         public string Leer()
         {
-            throw new NotImplementedException();
+
+            if (Directory.Exists(this.RutaDeArchivo))
+            {
+                using (StreamReader streamReader = new StreamReader(this.RutaDeArchivo))
+                {
+                    string archivoLeido = streamReader.ReadToEnd();
+
+                    return archivoLeido;
+                }
+            }
+            else
+            {
+                throw new FallaLogException("Error, No hay archivos para leer");
+            }
+
+
         }
     }
 }

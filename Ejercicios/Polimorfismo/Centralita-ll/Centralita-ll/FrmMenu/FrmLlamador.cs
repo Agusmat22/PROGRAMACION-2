@@ -1,4 +1,5 @@
 ﻿using Centralita;
+using Centralita.Excepciones;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -163,7 +164,12 @@ namespace Formularios
                 }
 
             }
-            catch (CentralitaException ex)
+            catch (CentralitaException ex )
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK);
+
+            }
+            catch (FallaLogException ex )
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK);
 

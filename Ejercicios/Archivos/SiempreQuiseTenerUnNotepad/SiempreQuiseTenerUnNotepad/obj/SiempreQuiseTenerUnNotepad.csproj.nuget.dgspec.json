@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj": {}
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj": {
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj",
         "projectName": "SiempreQuiseTenerUnNotepad",
-        "projectPath": "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj",
-        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\obj\\",
+        "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad.csproj",
+        "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Archivos\\SiempreQuiseTenerUnNotepad\\SiempreQuiseTenerUnNotepad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
