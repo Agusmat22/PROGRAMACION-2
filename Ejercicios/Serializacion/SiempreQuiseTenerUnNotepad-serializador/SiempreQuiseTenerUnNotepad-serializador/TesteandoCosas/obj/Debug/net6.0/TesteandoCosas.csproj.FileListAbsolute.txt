@@ -1,0 +1,15 @@
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\bin\Debug\net6.0\TesteandoCosas.exe
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\bin\Debug\net6.0\TesteandoCosas.deps.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\bin\Debug\net6.0\TesteandoCosas.runtimeconfig.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\bin\Debug\net6.0\TesteandoCosas.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\bin\Debug\net6.0\TesteandoCosas.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.AssemblyInfo.cs
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\refint\TesteandoCosas.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\TesteandoCosas.genruntimeconfig.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad-serializador\TesteandoCosas\obj\Debug\net6.0\ref\TesteandoCosas.dll

@@ -1,0 +1,12 @@
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\bin\Debug\net6.0\IO.deps.json
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\bin\Debug\net6.0\IO.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\bin\Debug\net6.0\IO.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.AssemblyInfo.cs
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\refint\IO.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\IO.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\IO\obj\Debug\net6.0\ref\IO.dll
