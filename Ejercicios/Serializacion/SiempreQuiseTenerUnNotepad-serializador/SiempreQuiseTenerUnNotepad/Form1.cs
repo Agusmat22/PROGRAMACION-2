@@ -10,6 +10,10 @@ namespace SiempreQuiseTenerUnNotepad
         private PuntoJson<string> puntoJson;
         private PuntoXml<string> puntoXml;
         private PuntoTxt puntoTxt;
+
+        private SaveFileDialog saveFileDialog;
+        private OpenFileDialog openFileDialog1;
+
         public Form1()
         {
             InitializeComponent();
@@ -18,6 +22,12 @@ namespace SiempreQuiseTenerUnNotepad
             this.abrirToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.A;
             this.guardarToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
             this.guardarComoToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Shift | Keys.S;
+
+            this.saveFileDialog = new SaveFileDialog();
+            this.saveFileDialog.Filter = "Archivo de texto|*.txt|Archivo JSON|*.json|Archivo XML|*.xml";
+
+            this.openFileDialog1 = new OpenFileDialog();
+            this.openFileDialog1.Filter = "Archivo de texto|*.txt|Archivo JSON|*.json|Archivo XML|*.xml";
 
             //inicializo el atributo
             this.cantidadCaracteres = 0;
@@ -28,10 +38,11 @@ namespace SiempreQuiseTenerUnNotepad
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Esta clase abre un seleccionador de archivos
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+             openFileDialog1 = new OpenFileDialog();
             //showDialog mostrara para abrir dicho archivo
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
+
                 StreamReader streamReader = new StreamReader(openFileDialog1.FileName);
 
                 string contenidoGuardado = streamReader.ReadToEnd();
@@ -77,20 +88,14 @@ namespace SiempreQuiseTenerUnNotepad
         private void guardarComoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
-            {
-                SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-                saveFileDialog1.Title = $"{this.tsslCantidadCaracteres.Name}.txt";
-                OpenFileDialog abrir = new OpenFileDialog(); 
+            {             
+                this.rutaAbsolutaGuardada = this.SeleccionarArchivo();
 
-                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                using (StreamWriter streamWriter = new StreamWriter(this.rutaAbsolutaGuardada))
                 {
-                    this.rutaAbsolutaGuardada = saveFileDialog1.FileName;
-
-                    using (StreamWriter streamWriter = new StreamWriter(this.rutaAbsolutaGuardada))
-                    {
-                        streamWriter.Write(this.richTextBox1.Text);
-                    }
+                    streamWriter.Write(this.richTextBox1.Text);
                 }
+                
             }
             catch (Exception ex)
             {
@@ -117,6 +122,18 @@ namespace SiempreQuiseTenerUnNotepad
         private void tsslCantidadCaracteres_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private string SeleccionarArchivo()
+        {
+            saveFileDialog = new SaveFileDialog();
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                return saveFileDialog.FileName;
+            }
+
+            return string.Empty;
         }
     }
 }

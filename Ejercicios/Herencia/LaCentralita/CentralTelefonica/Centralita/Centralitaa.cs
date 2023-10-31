@@ -12,6 +12,7 @@ namespace Centralita
         public Centralitaa()
         {
             listaDeLlamadas = new List<Llamada>();
+            
         }
 
         public Centralitaa(string nombreEmpresa) : this()
@@ -126,6 +127,7 @@ namespace Centralita
                 {
                     centralita.AgregarLlamada(llamada);
                     valor = centralita.Guardar();
+                    
 
                 }
                 else
@@ -201,21 +203,19 @@ namespace Centralita
         {
             try
             {
-                //obtengo el directorio
-                this.RutaDeArchivo = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-
-                this.RutaDeArchivo = Path.Combine(this.RutaDeArchivo, "Registro de llamadas centralita");
+                bool append = true;
 
                 if (!Directory.Exists(this.RutaDeArchivo))
                 {
                     Directory.CreateDirectory(this.RutaDeArchivo);
+                    append = false;
                 }
 
                 string nombreArchivo = "Llamada.txt";
 
                 this.RutaDeArchivo = Path.Combine(this.RutaDeArchivo, nombreArchivo);
 
-                using (StreamWriter streamWriter = new StreamWriter(this.RutaDeArchivo))
+                using (StreamWriter streamWriter = new StreamWriter(this.RutaDeArchivo, append))
                 {
                     DateTime fechaActual = DateTime.Now;
                     string mensaje = $"El dia {fechaActual.ToString("dddd")} {fechaActual.Day} de {fechaActual.ToString("MMMM")} de {fechaActual.Year} {fechaActual.ToString("HH,mm,ss")}";

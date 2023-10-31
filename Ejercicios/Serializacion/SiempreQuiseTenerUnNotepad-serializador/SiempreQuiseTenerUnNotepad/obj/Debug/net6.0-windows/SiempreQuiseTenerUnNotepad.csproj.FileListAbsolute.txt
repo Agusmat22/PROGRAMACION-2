@@ -32,3 +32,6 @@ C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTen
 C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.pdb
 C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.genruntimeconfig.cache
 C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\ref\SiempreQuiseTenerUnNotepad.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\IO.dll
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad\bin\Debug\net6.0-windows\IO.pdb
+C:\Users\usuario\Desktop\PROGRAMACION-2\Ejercicios\Serializacion\SiempreQuiseTenerUnNotepad-serializador\SiempreQuiseTenerUnNotepad\obj\Debug\net6.0-windows\SiempreQuiseTenerUnNotepad.csproj.CopyComplete

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "SiempreQuiseTenerUnNotepad/1.0.0": {
+        "dependencies": {
+          "IO": "1.0.0"
+        },
         "runtime": {
           "SiempreQuiseTenerUnNotepad.dll": {}
+        }
+      },
+      "IO/1.0.0": {
+        "runtime": {
+          "IO.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SiempreQuiseTenerUnNotepad/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

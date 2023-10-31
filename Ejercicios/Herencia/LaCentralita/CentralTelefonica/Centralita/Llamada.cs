@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Centralita
 {
-    public abstract class Llamada : IGuardar<string>
+    public abstract class Llamada 
     {
         public enum TipoLlamada
         {
@@ -89,18 +90,19 @@ namespace Centralita
             return sb.ToString(); 
         }
 
+        //FUNCION PARA REUTILIZAR CODIGO, NO LA PIDE EL ENUNCIADO
 
-        public string RutaDeArchivo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-
-        public bool Guardar()
+        public static void Serializar(Llamada llamada,string rutaDeArchivo)
         {
-            throw new NotImplementedException();
+            using (StreamWriter streamWriter = new StreamWriter(rutaDeArchivo))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(Local));
+
+                xmlSerializer.Serialize(streamWriter, llamada);
+
+            }
         }
 
-        public string Leer()
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

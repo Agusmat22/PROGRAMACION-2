@@ -14,7 +14,15 @@ namespace FrmMenu
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //obtengo el directorio
+            string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            ruta = Path.Combine(ruta, "Registro de llamadas centralita");
+
             centralita = new Centralitaa("Telecom");
+
+            centralita.RutaDeArchivo = ruta;
+
         }
 
         private void btnGenerarLlamada_Click(object sender, EventArgs e)

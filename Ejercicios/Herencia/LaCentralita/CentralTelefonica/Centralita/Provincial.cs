@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using Centralita.Interfaces;
 
 namespace Centralita
 {
-    public class Provincial : Llamada
+    public class Provincial : Llamada, IGuardar<Provincial>
     {
         public enum Franja //Los enum reciben solo integer
         {
@@ -35,6 +37,8 @@ namespace Centralita
         {
             get { return CalcularCosto(); }
         }
+
+        public string RutaDeArchivo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
 
 
@@ -83,6 +87,46 @@ namespace Centralita
         public override string ToString()
         {
             return Mostrar();
+        }
+
+        public bool Guardar()
+        {
+            if (File.Exists(this.RutaDeArchivo))
+            {
+                Llamada.Serializar(this, this.RutaDeArchivo);
+            }
+
+            return false;
+        }
+
+        public Provincial Leer()
+        {
+            Provincial llamada;
+
+            if (File.Exists(this.RutaDeArchivo))
+            {
+                try
+                {
+                    using (StreamReader streamReader = new StreamReader(this.RutaDeArchivo))
+                    {
+                        XmlSerializer xmlSerializer = new XmlSerializer(typeof(Provincial));
+
+                        llamada = xmlSerializer.Deserialize(streamReader) as Provincial;
+
+                        return llamada;
+
+                    }
+
+                }
+                catch(InvalidOperationException ex)
+                {
+                    throw ex;
+                }
+
+                
+            }
+
+            return null;
         }
     }
 }
