@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4gEpcC8eQ6X65Jj10WAxaH2twQYP6+gx6Wt5K2eGj2mQYUrkCtKiozuq/7OI9oIoPYHqR797O/G/OEDUrEU3rA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\DelegadosYExpresionesLambda\\I02_El_comparador\\Consola\\Consola.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lisandro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lisandro\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lisandro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Lisandro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

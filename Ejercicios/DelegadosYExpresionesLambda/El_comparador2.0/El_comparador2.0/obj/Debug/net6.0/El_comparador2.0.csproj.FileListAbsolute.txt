@@ -1,0 +1,15 @@
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.csproj.AssemblyReference.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.AssemblyInfoInputs.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.AssemblyInfo.cs
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\bin\Debug\net6.0\El_comparador2.0.exe
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\bin\Debug\net6.0\El_comparador2.0.deps.json
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\bin\Debug\net6.0\El_comparador2.0.runtimeconfig.json
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\bin\Debug\net6.0\El_comparador2.0.dll
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\bin\Debug\net6.0\El_comparador2.0.pdb
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.dll
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\refint\El_comparador2.0.dll
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.pdb
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\El_comparador2.0.genruntimeconfig.cache
+C:\Users\Lisandro\Desktop\PROGRAMACION-2\Ejercicios\DelegadosYExpresionesLambda\El_comparador2.0\El_comparador2.0\obj\Debug\net6.0\ref\El_comparador2.0.dll
