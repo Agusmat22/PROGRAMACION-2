@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jEMF3Ey8RabbrV7lhK6rNxho+CJ27MMvEMX8mQ4BztoUnwIEInSfdqmAAPa9h2e9bjlWiZA6C+Y3SkdjouzZ7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\SimuladorDeAtencion\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\purri\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\purri\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
