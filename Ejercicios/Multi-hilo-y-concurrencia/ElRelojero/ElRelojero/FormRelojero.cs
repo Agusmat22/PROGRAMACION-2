@@ -26,10 +26,10 @@ namespace ElRelojero
             }
         }
 
-        private void InciarReloj()
+        private void InciarReloj(CancellationTokenSource cancelation)
         {
             //valido que no se cancelo el subproceso
-            while (true && !cancellationTokenSource.IsCancellationRequested)
+            while (true && !cancelation.IsCancellationRequested)
             {
                 this.AsignarHora();
                 Thread.Sleep(1000);
@@ -45,12 +45,13 @@ namespace ElRelojero
 
         private void btnComenzar_Click(object sender, EventArgs e)
         {
+            //lo hago para que se instancie cada vez que quiero empezar
             this.cancellationTokenSource = new CancellationTokenSource();
 
             //Task tarea = new Task(this.InciarReloj);
             //tarea.Start();
 
-            Task tarea = Task.Run(() => this.InciarReloj());
+            Task tarea = Task.Run(() => this.InciarReloj(cancellationTokenSource), cancellationTokenSource.Token);
  
 
 
@@ -72,6 +73,7 @@ namespace ElRelojero
             Task tarea = new Task(this.InciarReloj);
 
             tarea.Start();*/
+
 
         }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj": {}
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\purri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\purri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +59,17 @@
         }
       }
     },
-    "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj": {
+    "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj",
         "projectName": "PracticandoHilos",
-        "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj",
-        "packagesPath": "C:\\Users\\purri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\obj\\",
+        "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\PracticandoHilos.csproj",
+        "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\PracticandoHilos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\purri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\purri\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Lisandro\\Desktop\\PROGRAMACION-2\\Ejercicios\\Multi-hilo-y-concurrencia\\PracticandoHilos\\Entidades\\Entidades.csproj"
               }
             }
           }
