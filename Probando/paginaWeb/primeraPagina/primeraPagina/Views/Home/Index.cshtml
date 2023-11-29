@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewData["Saludo"] = "Hola soy jose";
+    ViewData["Nombre"] = "Raul";
+    ViewData["Apellido"] = "Gimenez";
+    ViewData["Fecha_actual"] = DateTime.Now.ToString("dd/MM/yyyy");
+    
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>@ViewData["Saludo"]</p>
+    <p class="h3">@ViewData["Nombre"]</p>
+    <p class="h3">@ViewData["Apellido"]</p>
+    <p class="h3">@ViewData["Fecha_actual"]</p>
+    <form method="post" action="@Url.Action("MostrarMensaje")">
+    <button type="submit" onclick="console.log('Clic en el botón')">Haz clic</button>
+        </form>
+
+</div>

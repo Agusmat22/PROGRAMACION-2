@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             btnCancelar = new Button();
+            btnAtender = new Button();
             lblHora = new Label();
             lstbPersonas = new ListBox();
-            btnAtender = new Button();
             SuspendLayout();
             // 
             // btnCancelar
@@ -44,6 +44,17 @@
             btnCancelar.Text = "Cancelar hora";
             btnCancelar.UseVisualStyleBackColor = true;
             btnCancelar.Click += btnCancelar_Click;
+            // 
+            // btnAtender
+            // 
+            btnAtender.Location = new Point(577, 60);
+            btnAtender.Margin = new Padding(3, 2, 3, 2);
+            btnAtender.Name = "btnAtender";
+            btnAtender.Size = new Size(82, 22);
+            btnAtender.TabIndex = 5;
+            btnAtender.Text = "Atender";
+            btnAtender.UseVisualStyleBackColor = true;
+            btnAtender.Click += btnAtender_Click;
             // 
             // lblHora
             // 
@@ -64,22 +75,11 @@
             lstbPersonas.Size = new Size(669, 319);
             lstbPersonas.TabIndex = 6;
             // 
-            // btnAtender
-            // 
-            btnAtender.Location = new Point(577, 60);
-            btnAtender.Margin = new Padding(3, 2, 3, 2);
-            btnAtender.Name = "btnAtender";
-            btnAtender.Size = new Size(82, 22);
-            btnAtender.TabIndex = 5;
-            btnAtender.Text = "Atender";
-            btnAtender.UseVisualStyleBackColor = true;
-            btnAtender.Click += btnAtender_Click;
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(719, 465);
+            ClientSize = new Size(785, 475);
             Controls.Add(btnCancelar);
             Controls.Add(lblHora);
             Controls.Add(lstbPersonas);
@@ -93,8 +93,8 @@
         #endregion
 
         private Button btnCancelar;
+        private Button btnAtender;
         private Label lblHora;
         private ListBox lstbPersonas;
-        private Button btnAtender;
     }
 }

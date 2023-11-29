@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbandoEntity", "ProbandoEntity\ProbandoEntity.csproj", "{2489AA9B-013E-498E-9BB9-5834C44C8B59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{E13E5BF0-9D43-4E2C-A5F1-389813A87327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2489AA9B-013E-498E-9BB9-5834C44C8B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2489AA9B-013E-498E-9BB9-5834C44C8B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2489AA9B-013E-498E-9BB9-5834C44C8B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2489AA9B-013E-498E-9BB9-5834C44C8B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD97EC4-A85E-46C2-8F00-25C152F7F9B2}
+	EndGlobalSection
+EndGlobal
